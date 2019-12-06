@@ -1,0 +1,175 @@
+@font-face{
+    src:url("../fonts/Montserrat-Regular.ttf");
+    font-family: monserrat-regular;
+}
+@font-face{
+    src:url("../fonts/Montserrat-Medium.ttf");
+    font-family: monserrat-medium;
+}
+
+@font-face{
+    src:url("../fonts/futura\ medium\ bt.ttf");
+    font-family: futura-medium;
+}
+@font-face{
+    src:url("../fonts/FuturaPTLight.otf");
+    font-family: futura-light;
+}
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: monserrat-regular;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.textGlovo{
+    font-family: monserrat-medium;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: futura-light;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.paragraphText{
+    font-family: futura-light;
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+h5{
+    font-family: futura-light;
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+li{
+    font-family: futura-medium;
+    list-style: none;
+    padding-left: 20px;
+}
+
+#headerLayout{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top:2.5rem;
+    margin-bottom: 1.5rem;
+}
+#menu{
+    display:flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.menuHamburguesa{
+    display:none;
+}
+
+#textPhoto{
+    flex-wrap: wrap;
+    width: 90%;
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.centerContentCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.centerContentRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.textbody{
+    width: 40%;
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#glovo{
+    width:50vw;
+    
+}
+.info{
+    display:flex;
+    align-items: flex-end;
+    flex-direction: column;
+    
+}
+.logos{
+    display:flex;
+    flex-direction:row;
+}
+.logo2{
+    margin-left:0.5rem;
+}
+
+
+@media screen and (max-width: 512px) {
+    h1{
+        font-size: 1rem;
+     
+    }
+    h4{
+        font-size: 0.7rem;
+    }
+    #HeaderLayout{
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+        /* margin-right:-4rem; */
+        margin-left:3rem;
+        width:85%;
+    }
+    
+    li{
+        display:none;
+    }
+    .menuHamburguesa{
+         display:block;
+         width: 5.5vw;
+     
+     }
+ 
+    #hamburguesa{
+         width: 100%;
+         height: 100%;
+     }
+
+     .textbody{
+        width: 80%;
+
+    }
+
+    #glovo{
+        width: 80vw;
+    }
+
+
+ }
+
+ @media screen and (min-width: 513px) and (max-width:1023px){
+    .textbody{
+        width: 80%;
+
+    }
+
+    #glovo{
+        width: 65vw;
+    }
+
+
+ }
