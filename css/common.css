@@ -95,6 +95,34 @@ a{
     text-align: center;
 }
 
+.maxHeight{
+    height: 100%;
+}
+
+.horizontalSpaceEvenlyLayout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.horizontalCenterLayout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.verticalCenterLayout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.verticalSpaceBetweenLayout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 @media screen and (max-width: 512px) {
     #headerLayout{
         margin-left: 1.5rem;

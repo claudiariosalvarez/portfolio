@@ -1,37 +1,24 @@
-.horizontalSpaceEvenlyLayout{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.verticalCenterLayout{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .textTitle{
     font-family: monserrat-medium;
     font-size: 2rem;
 }
 
-.halfWidthContent{
-    width: 40%;
+.imageGrid{
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
-.gridLayout{
-    display: grid;
+.halfWidthContent{
+    width: 50%;
 }
 
 .imageWidht{
-    width: 33vw;
+    width: 32vw;
 }
 
-.gridText{
-
+.whiteText{
+    color: white;
 }
-
-
 
 .horizontalLeftLayout{
     display: flex;
@@ -51,10 +38,16 @@
     flex-direction: row;
 }
 
+.blueContent{
+    background: #284B59;
+    height: auto;
+    width: 48vw;
+}
+
 /*REMOVE ME*/
 
 .blueBg{
     background: #284B59;
     height: 500px;
-
+    width: 90%;
 }
