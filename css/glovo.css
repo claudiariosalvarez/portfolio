@@ -4,12 +4,6 @@
     text-transform: uppercase;
 }
 
-.paragraphText{
-    font-family: futura-light;
-    font-size: 1.4rem;
-    font-weight: lighter;
-}
-
 #textPhoto{
     flex-wrap: wrap;
     width: 90%;

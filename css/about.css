@@ -1,0 +1,75 @@
+.horizontalSpaceEvenlyLayout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.verticalCenterLayout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textTitle{
+    font-family: monserrat-medium;
+    font-size: 2rem;
+}
+
+.halfWidthContent{
+    width: 40%;
+}
+
+.gridLayout{
+    display: grid;
+}
+
+#gridLayout{
+    display: grid;
+}
+
+#row1Col1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#row2Col1{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#row2Col2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#row3Col2{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#row3Col3{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.gridImage{
+    width: 100%;
+}
+
+/*REMOVE ME*/
+
+.blueBg{
+    background: #284B59;
+    height: 500px;
+
+}
