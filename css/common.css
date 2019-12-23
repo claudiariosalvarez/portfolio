@@ -123,6 +123,12 @@ a{
     justify-content: space-between;
 }
 
+.verticalSpaceEvenlyLayout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 @media screen and (max-width: 512px) {
     #headerLayout{
         margin-left: 1.5rem;
