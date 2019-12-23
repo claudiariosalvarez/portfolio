@@ -91,6 +91,10 @@ a{
     height: 1rem;
 }
 
+.textCenter{
+    text-align: center;
+}
+
 @media screen and (max-width: 512px) {
     #headerLayout{
         margin-left: 1.5rem;

@@ -23,48 +23,32 @@
     display: grid;
 }
 
-#gridLayout{
-    display: grid;
+.imageWidht{
+    width: 33vw;
 }
 
-#row1Col1{
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
+.gridText{
 
-#row2Col1{
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-
-#row2Col2{
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 2;
-    grid-column-end: 3;
 }
 
 
-#row3Col2{
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 2;
-    grid-column-end: 3;
+
+.horizontalLeftLayout{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
 }
 
-#row3Col3{
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 3;
-    grid-column-end: 4;
+.horizontalCenterLayout{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
-.gridImage{
-    width: 100%;
+.horizontalRightLayout{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
 }
 
 /*REMOVE ME*/
