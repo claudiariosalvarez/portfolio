@@ -1,0 +1,307 @@
+@font-face{
+    src:url("../fonts/Montserrat-Regular.ttf");
+    font-family: monserrat-regular;
+}
+
+@font-face{
+    src:url("../fonts/futura\ medium\ bt.ttf");
+    font-family: futura-medium;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1600;
+}
+
+h1{
+    font-family: monserrat-regular;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+h4{
+    font-family: monserrat-regular;
+    font-size: 1rem;
+    margin-left: 3rem;
+    
+}
+
+li{
+    font-family: futura-medium;
+    list-style: none;
+    padding-left: 20px;
+}
+
+#headerLayout{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top:2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#menu{
+    display:flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.centerTextVertically{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menuHamburguesa{
+    display:none;
+}
+
+#photoContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.showWhenTwoColumns{
+    display:none;
+}
+
+.leftAndRightColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+
+}
+
+#centerColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+
+}
+
+.marginLeft{
+    margin-left:1.5rem;
+}
+
+.relative{
+    position: relative;
+}
+
+.image{
+    width: 28rem;
+    margin-bottom: 1.5rem;
+}
+
+/*OVERLAY*/
+.overlayText1{
+    text-align: center;
+    font-family: monserrat-regular;
+    white-space: nowrap; 
+    color:#35242C;
+    font-size: 1.5rem;
+}
+
+.overlayText2{
+    text-align: center;
+    font-family: monserrat-regular;
+    white-space: nowrap; 
+    color: white;
+    font-size: 1.5rem;
+}
+
+.overlayText3{
+    text-align: center;
+    font-family: monserrat-regular;
+    white-space: nowrap; 
+    color: white;
+    font-size: 1.5rem;
+}
+
+.overlayText4{
+    text-align: center;
+    font-family: monserrat-regular;
+    white-space: nowrap; 
+    color:#35242C;
+    font-size: 1.5rem;
+}
+
+
+#overlayPicture1 {
+    top: 0;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0;
+    overflow: hidden;
+    background-color: rgba(242,242,242,0.85);
+    width: 0;
+    height: auto;
+    transition: .3s ease-in-out;
+}
+
+.relative:hover #overlayPicture1{
+    width: 100%;
+    cursor:pointer;
+}
+
+#overlayPicture2 {
+    top: 0;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0;
+    overflow: hidden;
+    background-color:rgba(227,192,171,0.85);
+    width: 0;
+    height: auto;
+    transition: .3s ease-in-out;
+}
+
+.relative:hover #overlayPicture2{
+    width: 100%;
+    cursor:pointer;
+}
+
+#overlayPicture3 {
+    top: 0;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0;
+    overflow: hidden;
+    background-color:rgba(40,75,89,0.85);
+    width: 0;
+    height: auto;
+    transition: .3s ease-in-out;
+}
+
+.relative:hover #overlayPicture3{
+    width: 100%;
+    cursor:pointer;
+}
+
+#overlayPicture4 {
+    top: 0;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0;
+    overflow: hidden;
+    background-color: rgba(242,242,242,0.85);
+    width: 0;
+    height: auto;
+    transition: .3s ease-in-out;
+}
+
+.relative:hover #overlayPicture4{
+    width: 100%;
+    cursor:pointer;
+}
+
+
+/*MEDIA*/
+
+
+@media screen and (max-width: 512px) {
+    
+    h1{
+        font-size: 1rem;
+     
+    }
+
+    h4{
+        font-size: 0.7rem;
+    }
+
+    #HeaderLayout{
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+        /* margin-right:-4rem; */
+        margin-left:3rem;
+        width:85%;
+    }
+    
+    li{
+        display:none;
+    }
+
+    .menuHamburguesa{
+        display:block;
+        width: 5.5vw;
+     
+    }
+ 
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .image{
+        width:100vw;
+    }
+    
+    #photoContainer{
+        justify-content: center;
+    }
+ 
+    .noMarginWhenOneColumn{
+        margin-left:0;
+    }
+
+ }
+ 
+ @media screen and (min-width: 513px) and (max-width: 579px) {
+    
+    .image{
+        width: 30rem;
+    }
+ 
+    .noMarginWhenOneColumn{
+        margin-left:0;
+    }
+    
+    h4{
+        font-size: 0.7rem;
+    }
+
+ }
+ 
+ @media screen and (min-width: 580px) and (max-width: 919px) {
+    
+    .image{
+        width: 35rem;
+    }
+ 
+     .noMarginWhenOneColumn{
+         margin-left:0;
+     }
+     h4{
+        font-size: 0.7rem;
+    }
+ }
+
+ @media screen and (min-width: 920px) and (max-width: 1391px) {
+    
+    .image{
+        width: 35rem;
+    }
+
+    .noMarginWhenTwoColumn{
+        margin-left:0;
+    }
+
+    .hideWhenTwoColumns {
+        display: none;
+    }
+
+    .showWhenTwoColumns{
+        display: initial;
+    }
+}
