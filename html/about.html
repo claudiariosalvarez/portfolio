@@ -16,11 +16,11 @@
     <header id="headerLayout">
         <h1><a href="./../index.html">Claudia Ríos</a></h1>
         <div class="centerTextVertically">
-            <nav id="menu">
+            <ul id="menu">
                 <li><a href="./../index.html">Portfolio</a></li>
                 <li><a href="./../html/about.html">About</a></li>
                 <li>Contact</li>
-            </nav>
+            </ul>
             <div id="hamburgerBtnLayout">
                 <img id="hamburgerBtn" src="./../images/noun_menu_1166835.svg" alt="menu hamburguesa">
             </div>
@@ -87,13 +87,26 @@
             <div class="blueContent halfWidthContent">
                 <div class="verticalSpaceBetweenLayout whiteText maxHeight">
                     <h1 class="textCenter textTitle">Claudia Rios Alvarez</h1>
-                    <div class="horizontalCenterLayout">
+                    <div class="horizontalCenterLayout halfHeight">
                         <div class="verticalSpaceEvenlyLayout">
-                            <div>Email con imagen</div>
-                            <div>Telefono con imagen</div>
+                            <div class="horizontalSpaceEvenlyLayout wrapContent">
+                                <img class="alignFlexChildCenter gridFirstColumnFirstRow" src="./../images/email.svg" />
+                                <span
+                                    class="contactText alignFlexChildCenter gridThidColumnFirstRow">claudiarios97@gmail.com</span>
+                            </div>
+                            <div class="horizontalSpaceEvenlyLayout wrapContent">
+                                <img class="alignFlexChildCenter gridFirstColumnFirstRow" src="./../images/phone.svg" />
+                                <span class="contactText alignFlexChildCenter gridThidColumnFirstRow">+34
+                                    622827625</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="horizontalCenterLayout">links</div>
+                    <div id="contactLinks" class="horizontalSpaceEvenlyLayout alignFlexChildCenter wrapContent">
+                        <div> <img src="./../images/behanceWhite.svg"> </div>
+                        <div><img src="./../images/mediumWhite.svg"> </div>
+                        <div><img src="./../images/linkedinWhite.svg"> </div>
+                        <div><img src="./../images/instaWhite.svg"></div>
+                    </div>
                 </div>
             </div>
         </div>

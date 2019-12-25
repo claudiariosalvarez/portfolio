@@ -99,10 +99,18 @@ a{
     height: 100%;
 }
 
+/*FLEX*/
+
 .horizontalSpaceEvenlyLayout{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.horizontalSpaceBetweenLayout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .horizontalCenterLayout{
@@ -128,6 +136,15 @@ a{
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+.wrapContent{
+    flex-wrap: wrap;
+}
+
+.alignFlexChildCenter{
+    align-self: center;
+}
+
 
 @media screen and (max-width: 512px) {
     #headerLayout{

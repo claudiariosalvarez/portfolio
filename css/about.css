@@ -1,9 +1,19 @@
+#contactLinks{
+    width: 55%;
+}
+
 .textTitle{
     font-family: monserrat-medium;
     font-size: 2rem;
 }
 
-.imageGrid{
+.contactText{
+    font-family: futura-medium;
+    font-size: 1.5rem;
+    width: 60%;
+}
+
+.imageGwirid{
     margin-left: 2vw;
     margin-right: 2vw;
 }
@@ -26,12 +36,6 @@
     flex-direction: row;
 }
 
-.horizontalCenterLayout{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
 .horizontalRightLayout{
     display: flex;
     justify-content: flex-end;
@@ -42,6 +46,10 @@
     background: #284B59;
     height: auto;
     width: 48vw;
+}
+
+.halfHeight{
+    height: 50%;
 }
 
 /*REMOVE ME*/
