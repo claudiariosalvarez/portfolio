@@ -16,6 +16,10 @@
     font-family: futura-light;
 }
 
+.monserratMedium{
+    font-family: monserrat-medium;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -32,6 +36,11 @@ h2{
     font-weight: lighter;
 }
 
+h3{
+    font-family: futura-light;
+    font-size: 3rem;
+}
+
 h4{
     font-family: monserrat-regular;
     font-size: 1rem;
@@ -44,6 +53,25 @@ h5{
     font-size: 1.4rem;
     font-weight: lighter;
 }
+
+#footerMainContent{
+    height: 8rem;
+    font-family: monserrat-medium;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #5b5b5b;
+}
+
+#footerContactMeText{
+    font-size: 1.1rem;
+}
+
+#footerClauNameText{
+    min-width: 40%;
+    text-transform: uppercase;
+}
+
+
 
 li{
     font-family: futura-medium;
@@ -91,12 +119,29 @@ a{
     height: 1rem;
 }
 
+
+.textRight{
+    text-align: right;
+}
+
 .textCenter{
     text-align: center;
 }
 
 .maxHeight{
     height: 100%;
+}
+
+.halfWidth{
+    width: 50%;
+}
+
+.minHalfWidth{
+    min-width: 50%;
+}
+
+.maxHalfWidth{
+    max-width: 50%;
 }
 
 /*FLEX*/
@@ -144,6 +189,9 @@ a{
 .alignFlexChildCenter{
     align-self: center;
 }
+
+
+
 
 
 @media screen and (max-width: 512px) {
