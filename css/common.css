@@ -54,6 +54,10 @@ h5{
     font-weight: lighter;
 }
 
+footer{
+    background-color: #f2f2f2;
+}
+
 #footerMainContent{
     height: 8rem;
     font-family: monserrat-medium;
@@ -69,6 +73,10 @@ h5{
 #footerClauNameText{
     min-width: 40%;
     text-transform: uppercase;
+}
+
+#footerCopyright{
+    height: 2rem;
 }
 
 
