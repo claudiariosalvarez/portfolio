@@ -47,9 +47,16 @@
     flex-direction: row;
 }
 
-.blueContent{
+#blueContentTitle{
+    font-family: monserrat-medium;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+#blueContent{
     background: #284B59;
-    height: auto;
+    height: 27rem;
     width: 48vw;
 }
 
