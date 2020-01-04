@@ -16,6 +16,10 @@
     font-family: futura-light;
 }
 
+.monserratMedium{
+    font-family: monserrat-medium;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -47,6 +51,8 @@ h5{
 
 .footerMainContent{
     height: 8rem;
+    font-family: monserrat-medium;
+    font-size: 1.3rem;
 }
 
 li{
@@ -95,6 +101,11 @@ a{
     height: 1rem;
 }
 
+
+.textRight{
+    text-align: right;
+}
+
 .textCenter{
     text-align: center;
 }
@@ -111,8 +122,12 @@ a{
     min-width: 50%;
 }
 
-.maxHalfWidth{
+.min40Width{
     min-width: 40%;
+}
+
+.maxHalfWidth{
+    max-width: 50%;
 }
 
 /*FLEX*/
@@ -161,15 +176,8 @@ a{
     align-self: center;
 }
 
-/*Font Align*/
 
-.alignTextRight{
-    text-align: right;
-}
 
-.alignTextCenter{
-    text-align: center;
-}
 
 
 @media screen and (max-width: 512px) {
