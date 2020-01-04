@@ -45,6 +45,10 @@ h5{
     font-weight: lighter;
 }
 
+.footerMainContent{
+    height: 8rem;
+}
+
 li{
     font-family: futura-medium;
     list-style: none;
@@ -99,6 +103,18 @@ a{
     height: 100%;
 }
 
+.halfWidth{
+    width: 50%;
+}
+
+.minHalfWidth{
+    min-width: 50%;
+}
+
+.maxHalfWidth{
+    min-width: 40%;
+}
+
 /*FLEX*/
 
 .horizontalSpaceEvenlyLayout{
@@ -143,6 +159,16 @@ a{
 
 .alignFlexChildCenter{
     align-self: center;
+}
+
+/*Font Align*/
+
+.alignTextRight{
+    text-align: right;
+}
+
+.alignTextCenter{
+    text-align: center;
 }
 
 
