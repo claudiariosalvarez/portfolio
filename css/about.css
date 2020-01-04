@@ -31,6 +31,10 @@
     font-size: 1.4rem;
 }
 
+.linkImage{
+    width: 4.9vw;
+}
+
 .horizontalLeftLayout{
     display: flex;
     justify-content: flex-start;
