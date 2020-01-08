@@ -210,6 +210,10 @@ a{
     align-self: center;
 }
 
+.alignFlexItemsCenter{
+    align-items: center;
+}
+
 
 
 

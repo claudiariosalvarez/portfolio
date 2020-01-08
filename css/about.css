@@ -18,7 +18,11 @@
     width: 50%;
 }
 
-.imageWidht{
+.smallerImageWidth{
+    width: 28vw;
+}
+
+.imageWidth{
     width: 32vw;
 }
 
@@ -75,6 +79,10 @@
 
 .contentPaddingBottom{
     padding-bottom: 5rem;
+}
+
+.littleMarginBottom{
+    margin-bottom: 3rem;
 }
 
 #group3ImageLayout{
