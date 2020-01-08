@@ -14,10 +14,6 @@
     width: 60%;
 }
 
-.maxWidth{
-    width: 100%;
-}
-
 .oneThirdWidth{
     width: 33%;
 }
@@ -28,10 +24,6 @@
 
 .smallerImageWidth{
     width: 28vw;
-}
-
-.imageWidth{
-    width: 32vw;
 }
 
 .whiteText{
@@ -70,7 +62,7 @@
 #blueContent{
     background: #284B59;
     height: 36rem;
-    width: 48vw;
+    width: 50%;
 }
 
 .halfHeight{
