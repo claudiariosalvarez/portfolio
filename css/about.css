@@ -1,6 +1,6 @@
 #blueContentContactLinks{
     width: 55%;
-    padding-bottom: 3rem;
+    margin-bottom: 3rem;
 }
 
 .textTitle{
@@ -52,7 +52,7 @@
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: lighter;
-    padding-top: 3rem;
+    margin-top: 3rem;
 }
 
 #blueContent{
@@ -63,6 +63,14 @@
 
 .halfHeight{
     height: 50%;
+}
+
+.contentPaddingTop{
+    padding-top: 2rem;
+}
+
+.contentPaddingBottom{
+    padding-bottom: 5rem;
 }
 
 /*REMOVE ME*/
