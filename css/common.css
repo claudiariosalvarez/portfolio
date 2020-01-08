@@ -159,6 +159,11 @@ a{
     max-width: 50%;
 }
 
+.frontContent{
+    z-index: 1;
+}
+
+
 /*FLEX*/
 
 .horizontalSpaceEvenlyLayout{
