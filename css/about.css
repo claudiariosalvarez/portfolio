@@ -61,6 +61,10 @@
     width: 48vw;
 }
 
+#group3Image{
+    width: 80%;
+}
+
 .halfHeight{
     height: 50%;
 }
@@ -71,6 +75,14 @@
 
 .contentPaddingBottom{
     padding-bottom: 5rem;
+}
+
+#clauPictureLayout{
+    width: 40%;
+}
+
+#clauAboutMeLayout{
+    width: 60%;
 }
 
 /*REMOVE ME*/
