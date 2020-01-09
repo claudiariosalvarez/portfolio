@@ -14,16 +14,16 @@
     width: 60%;
 }
 
+.oneThirdWidth{
+    width: 33%;
+}
+
 .halfWidthContent{
     width: 50%;
 }
 
 .smallerImageWidth{
     width: 28vw;
-}
-
-.imageWidth{
-    width: 32vw;
 }
 
 .whiteText{
@@ -36,7 +36,7 @@
 }
 
 .linkImage{
-    width: 4.9vw;
+    width: 90%;
 }
 
 .horizontalLeftLayout{
@@ -62,7 +62,7 @@
 #blueContent{
     background: #284B59;
     height: 36rem;
-    width: 48vw;
+    width: 50%;
 }
 
 .halfHeight{

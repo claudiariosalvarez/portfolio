@@ -84,7 +84,7 @@ footer{
 }
 
 .footerImage{
-    width: 4vw;
+    width: 90%;
 }
 
 
@@ -146,6 +146,14 @@ a{
 
 .maxHeight{
     height: 100%;
+}
+
+.maxBodyWidth{
+    width: 1440px;
+}
+
+.maxWidth{
+    width: 100%;
 }
 
 .halfWidth{
@@ -211,10 +219,17 @@ a{
     align-self: center;
 }
 
+.alignFlexItemsLeft{
+    align-items: flex-start;
+}
+
 .alignFlexItemsCenter{
     align-items: center;
 }
 
+.alignFlexItemsRight{
+    align-items: flex-end;
+}
 
 
 
