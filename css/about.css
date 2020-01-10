@@ -156,6 +156,23 @@
     .paragraphText{
         font-size: 1rem;
     }
+
+    #contactMeLayout{
+        width: 100%;
+    }
+
+    #blueContent{
+        height: 26rem;
+        width: 100%;
+    }
+
+    .contactText{
+        font-size: 1.1rem;
+    }
+
+    .contactMePairWidth{
+        width: 90%;
+    }
     
 }
 
@@ -180,6 +197,23 @@
     .paragraphText{
         font-size: 1rem;
     }
+
+    #contactMeLayout{
+        width: 100%;
+    }
+
+    #blueContent{
+        height: 26rem;
+        width: 100%;
+    }
+
+    .contactText{
+        font-size: 1.4rem;
+    }
+
+    .contactMePairWidth{
+        width: 85%;
+    }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px){
@@ -194,6 +228,23 @@
     #profileImage {
         width: 80%;
         margin: 0;
+    }
+
+    #contactMeLayout{
+        width: 100%;
+    }
+
+    #blueContent{
+        height: 26rem;
+        width: 100%;
+    }
+
+    .contactText{
+        font-size: 1.5rem;
+    }
+
+    .contactMePairWidth{
+        width: 85%;
     }
 }
 
@@ -213,12 +264,14 @@
 
     #blueContent{
         height: 26rem;
-        width: 80%;
+        width: 100%;
     }
 
     #contactMeLayout{
         width: 100%;
     }
+
+    
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1440px){
