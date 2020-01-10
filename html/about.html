@@ -13,18 +13,27 @@
 </head>
 
 <body>
-    <header id="headerLayout">
-        <h1><a href="./../index.html">Claudia Ríos</a></h1>
-        <div class="centerTextVertically">
-            <ul id="menu">
-                <li><a href="./../index.html">Portfolio</a></li>
-                <li><a href="./../html/about.html">About</a></li>
-                <li>Contact</li>
-            </ul>
+    <header>
+        <div id="headerLayout">
+            <h1><a href="./../index.html">Claudia Ríos</a></h1>
             <div id="hamburgerBtnLayout">
                 <img id="hamburgerBtn" src="./../images/noun_menu_1166835.svg" alt="Menu hamburguesa">
+                <div id="menu" class="centerTextVertically">
+                    <ul>
+                        <li><a href="./../index.html">Portfolio</a></li>
+                        <li><a href="./../html/about.html">About</a></li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
             </div>
+        </div>
+        <div id="hamburgerMenuContent">
+            <a href="./../index.html">Portfolio</a>
+            <a href="./../html/about.html">About</a>
+            <a>Contact</a>
+        </div>
     </header>
+
     <h4 id="subHeader">UX/UI Designer | Graphic Designer | Industrial Designer</h4>
     <div class="horizontalCenterLayout alignFlexItemsCenter">
         <div class="verticalSpaceEvenlyLayout">
@@ -65,15 +74,13 @@
                     </div>
                     <div class="designLayout horizontalCenterLayout textCenter">
                         <div class="verticalCenterLayout alignFlexItemsCenter designContent">
-                            <img class="maxWidth designImage" src="./../images/about2.png"
-                                alt="Graphic Design" />
+                            <img class="maxWidth designImage" src="./../images/about2.png" alt="Graphic Design" />
                             <span class="designFont alignFlexChildCenter">GRAPHIC DESIGN</span>
                         </div>
                     </div>
                     <div class="designLayout horizontalRightLayout textCenter">
                         <div class="verticalCenterLayout alignFlexItemsRight designContent">
-                            <img class="maxWidth designImage" src="./../images/about3.png"
-                                alt="Industrial Design" />
+                            <img class="maxWidth designImage" src="./../images/about3.png" alt="Industrial Design" />
                             <span class="designFont alignFlexChildCenter">INDUSTRIAL DESIGN</span>
                         </div>
                     </div>
@@ -81,7 +88,7 @@
             </div>
 
             <div id="contactMe" class="horizontalCenterLayout maxBodyWidth frontContent wrapContent">
-                <div id="contactMeLayout" >
+                <div id="contactMeLayout">
                     <h3 id="contactMeTitle" class="textTitle">Contact me</h3>
                     <div class="horizontalCenterLayout">
                         <img class="maxWidth" src="./../images/about4.jpg" alt="Contact me">
@@ -92,13 +99,15 @@
                         <h1 id="blueContentTitle" class="textCenter">Claudia Rios Alvarez</h1>
                         <div class="horizontalCenterLayout halfHeight">
                             <div class="verticalSpaceEvenlyLayout maxWidth maxHeight alignFlexItemsCenter">
-                                <a href="mailto:claudiarios97@gmail.com" class="horizontalSpaceBetweenLayout wrapContent contactMePairWidth">
+                                <a href="mailto:claudiarios97@gmail.com"
+                                    class="horizontalSpaceBetweenLayout wrapContent contactMePairWidth">
                                     <img class="alignFlexChildCenter gridFirstColumnFirstRow"
                                         src="./../images/email.svg" alt="Email" />
                                     <span
                                         class="contactText alignFlexChildCenter gridThidColumnFirstRow">claudiarios97@gmail.com</span>
                                 </a>
-                                <a href="tel:+34622827625" class="horizontalSpaceBetweenLayout wrapContent contactMePairWidth">
+                                <a href="tel:+34622827625"
+                                    class="horizontalSpaceBetweenLayout wrapContent contactMePairWidth">
                                     <img class="alignFlexChildCenter gridFirstColumnFirstRow"
                                         src="./../images/phone.svg" alt="Teléfono" />
                                     <span class="contactText alignFlexChildCenter gridThidColumnFirstRow">+34
@@ -108,16 +117,19 @@
                         </div>
                         <div id="blueContentContactLinks" class="horizontalCenterLayout alignFlexChildCenter">
                             <a href="https://www.behance.net/claudiariosalvarez">
-                                <img class="blueContentImage" src="./../images/behanceWhite.svg" alt="Behance de Claudia">
+                                <img class="blueContentImage" src="./../images/behanceWhite.svg"
+                                    alt="Behance de Claudia">
                             </a>
                             <a href="https://medium.com/@claudiarios97">
                                 <img class="blueContentImage" src="./../images/mediumWhite.svg" alt="Medium de Claudia">
                             </a>
                             <a href="https://www.linkedin.com/in/claudia-r%C3%ADos-%C3%A1lvarez">
-                                <img class="blueContentImage" src="./../images/linkedinWhite.svg" alt="Linkedin de Claudia">
+                                <img class="blueContentImage" src="./../images/linkedinWhite.svg"
+                                    alt="Linkedin de Claudia">
                             </a>
                             <a href="https://www.instagram.com/claurios6/">
-                                <img class="blueContentImage" src="./../images/instaWhite.svg" alt="Instagram de Claudia">
+                                <img class="blueContentImage" src="./../images/instaWhite.svg"
+                                    alt="Instagram de Claudia">
                             </a>
                         </div>
                     </div>
@@ -151,6 +163,7 @@
             <div id="footerCopyright" class="textCenter montserratMedium">&copy;2019 by Claudia Ríos</div>
         </div>
     </footer>
+    <script type="text/javascript" src="./../js/common.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,9 @@
-document.getElementById("hamburgerBtnLayout").addEventListener("click", onHamburgerBtnClick, false);
+document.getElementById("hamburgerBtn").addEventListener("click", onHamburgerBtnClick, false);
 
 function onHamburgerBtnClick(){
-    //document.getElementById("menu").style.display = "inherit";
+    let currentDisplay = document.getElementById("hamburgerMenuContent").style.display;
+    if(currentDisplay === "none")
+        document.getElementById("hamburgerMenuContent").style.display = "flex";
+    else
+        document.getElementById("hamburgerMenuContent").style.display = "none";
 }

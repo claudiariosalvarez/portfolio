@@ -113,16 +113,33 @@ a{
     margin-right: 3rem;
     margin-top:2.5rem;
     margin-bottom: 1.5rem;
+    align-items: center;
 }
 
-#menu{
+#menu ul{
     display:flex;
     justify-content: space-between;
     align-self: center;
 }
 
-#hamburgerBtnLayout{
+#hamburgerBtn{
     display:none;
+}
+
+#hamburgerMenuContent{
+    display: none;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    margin-top: -1.5rem;
+}
+
+#hamburgerMenuContent a{
+    padding-left: 2.5rem;
+}
+
+#hamburgerMenuContent a:hover {
+    background-color: white;
 }
 
 .centerTextVertically{
@@ -363,18 +380,13 @@ a{
         margin-left: 1.5rem;
     }
     
-    li{
+    #menu{
         display:none;
-    }
-
-    #hamburgerBtnLayout{
-        display:block;
-        width: 5.5vw;
     }
  
     #hamburgerBtn{
-        width: 100%;
-        height: 100%;
+        display:block;
+        width: 5.5vw;
     }
 }
 
