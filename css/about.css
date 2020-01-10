@@ -161,6 +161,11 @@
         width: 100%;
     }
 
+    #blueContentTitle{
+        font-size: 1.5rem;
+    }
+
+
     .contactText{
         font-size: 1.1rem;
     }
@@ -228,6 +233,10 @@
         width: 100%;
     }
 
+    #blueContentTitle{
+        font-size: 1.5rem;
+    }
+
     .contactText{
         font-size: 1.4rem;
     }
@@ -288,6 +297,10 @@
     #blueContent{
         height: 26rem;
         width: 100%;
+    }
+
+    #blueContentTitle{
+        font-size: 1.8rem;
     }
 
     .contactText{
