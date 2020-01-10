@@ -82,8 +82,8 @@
     padding-bottom: 8rem;
 }
 
-.littleMarginBottom{
-    margin-bottom: 3rem;
+.designImage{
+    margin-bottom: 2.5rem;
 }
 
 .smallMarginRight{
@@ -168,10 +168,10 @@
         width: 90%;
     }
 
-    .designsLayout{
+    .designLayout{
         display: flex;
         justify-content: center;
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
     }
 
     .designContent{
@@ -192,6 +192,10 @@
 
     #claudiaRiosMainText{
         font-size: 1.5rem;
+    }
+
+    .designImage{
+        margin-bottom: 1rem;
     }
     
 }
@@ -231,10 +235,10 @@
         width: 85%;
     }
 
-    .designsLayout{
+    .designLayout{
         display: flex;
         justify-content: center;
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
     }
 
     .designContent{
@@ -255,6 +259,10 @@
 
     #claudiaRiosMainText{
         font-size: 1.5rem;
+    }
+
+    .designImage{
+        margin-bottom: 1rem;
     }
 }
 
@@ -289,10 +297,10 @@
         width: 85%;
     }
 
-    .designsLayout{
+    .designLayout{
         display: flex;
         justify-content: center;
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
     }
 
     .designContent{
@@ -308,6 +316,10 @@
     }
 
     #aboutMeLayoutContent{
+        margin-bottom: 2rem;
+    }
+
+    .designImage{
         margin-bottom: 2rem;
     }
 }
