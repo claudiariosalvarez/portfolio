@@ -17,7 +17,7 @@
     width: 80%;
 }
 
-.oneThirdWidth{
+.designContent{
     width: 33%;
 }
 
@@ -77,8 +77,9 @@
     padding-top: 2rem;
 }
 
-.contentTriplePaddingTop{
+#desings{
     padding-top: 6rem;
+    padding-bottom: 8rem;
 }
 
 .negativeTrippleMarginTop{
@@ -89,9 +90,6 @@
     padding-bottom: 5rem;
 }
 
-.contentHighPaddingBottom{
-    padding-bottom: 8rem;
-}
 
 .littleMarginBottom{
     margin-bottom: 3rem;
@@ -149,10 +147,6 @@
         margin: 0;
     }
 
-    .textTitle{
-        font-size: 1.1rem;
-    }
-
     .paragraphText{
         font-size: 1rem;
     }
@@ -173,6 +167,19 @@
     .contactMePairWidth{
         width: 90%;
     }
+
+    .designsLayout{
+        display: flex;
+        justify-content: center;
+    }
+
+    .designContent{
+        width: 80%;
+    }
+
+    #desings{
+        padding-top: 2rem;
+    }
     
 }
 
@@ -188,10 +195,6 @@
     #profileImage {
         width: 80%;
         margin: 0;
-    }
-
-    .textTitle{
-        font-size: 1.1rem;
     }
 
     .paragraphText{
@@ -213,6 +216,19 @@
 
     .contactMePairWidth{
         width: 85%;
+    }
+
+    .designsLayout{
+        display: flex;
+        justify-content: center;
+    }
+
+    .designContent{
+        width: 80%;
+    }
+
+    #desings{
+        padding-top: 2rem;
     }
 }
 
@@ -246,6 +262,19 @@
     .contactMePairWidth{
         width: 85%;
     }
+
+    .designsLayout{
+        display: flex;
+        justify-content: center;
+    }
+
+    .designContent{
+        width: 80%;
+    }
+
+    #desings{
+        padding-top: 2rem;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
@@ -254,7 +283,7 @@
     }
     
     #aboutMeLayout{
-        width: 80%;
+        width: 81%;
     }
 
     #profileImage {
@@ -269,9 +298,7 @@
 
     #contactMeLayout{
         width: 100%;
-    }
-
-    
+    }    
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1440px){
