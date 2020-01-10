@@ -3,15 +3,18 @@
     margin-bottom: 3rem;
 }
 
+
+
 .textTitle{
-    font-family: monserrat-medium;
+    font-family: montserrat-bold;
     font-size: 2rem;
+    color: #35242C;
 }
 
 .contactText{
     font-family: futura-medium;
     font-size: 1.5rem;
-    width: 60%;
+    width: 80%;
 }
 
 .oneThirdWidth{
@@ -31,8 +34,9 @@
 }
 
 .designFont{
-    font-family: monserrat-medium;
+    font-family: montserrat-medium;
     font-size: 1.4rem;
+    color: #35242C;
 }
 
 .linkImage{
@@ -52,7 +56,7 @@
 }
 
 #blueContentTitle{
-    font-family: monserrat-medium;
+    font-family: montserrat-medium;
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: lighter;
@@ -77,14 +81,29 @@
     padding-top: 6rem;
 }
 
+.negativeTrippleMarginTop{
+    margin-top: -6rem;
+}
+
 .contentPaddingBottom{
     padding-bottom: 5rem;
+}
+
+.contentHighPaddingBottom{
+    padding-bottom: 8rem;
 }
 
 .littleMarginBottom{
     margin-bottom: 3rem;
 }
 
+.smallMarginRight{
+    margin-right: 1rem;
+}
+
+.contactMePairWidth{
+    width: 60%;
+}
 
 #profileImage{
     margin-right: 1rem;
@@ -96,6 +115,16 @@
 
 #aboutMeLayoutContent{
     width: 90%;
+}
+
+#contactMeTitle{
+    margin-left: 2rem;
+    letter-spacing: 6px;
+    font-family: montserrat-medium;
+}
+
+#contactMeLayout{
+    width: 50%;
 }
 
 /*REMOVE ME*/
@@ -181,6 +210,15 @@
         width: 80%;
         margin: 0;
     }
+
+    #blueContent{
+        height: 26rem;
+        width: 80%;
+    }
+
+    #contactMeLayout{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1440px){
@@ -191,6 +229,10 @@
     #profileImage {
         width: 375px;
         margin-bottom: -1.4rem;
+    }
+
+    #blueContent{
+        height: 29rem;
     }
 }
 

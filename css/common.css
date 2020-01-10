@@ -1,23 +1,29 @@
 @font-face{
-    src:url("../fonts/Montserrat-Regular.ttf");
-    font-family: monserrat-regular;
-}
-@font-face{
-    src:url("../fonts/Montserrat-Medium.ttf");
-    font-family: monserrat-medium;
+    src:url("./../fonts/Montserrat-Regular.ttf");
+    font-family: montserrat-regular;
 }
 
 @font-face{
-    src:url("../fonts/futura\ medium\ bt.ttf");
+    src:url("./../fonts/Montserrat-Medium.ttf");
+    font-family: montserrat-medium;
+}
+
+@font-face{
+    src: url("./../fonts/Montserrat-Bold.ttf");
+    font-family: montserrat-bold;
+}
+
+@font-face{
+    src:url("./../fonts/futura\ medium\ bt.ttf");
     font-family: futura-medium;
 }
 @font-face{
-    src:url("../fonts/FuturaPTLight.otf");
+    src:url("./../fonts/FuturaPTLight.otf");
     font-family: futura-light;
 }
 
-.monserratMedium{
-    font-family: monserrat-medium;
+.montserratMedium{
+    font-family: montserrat-medium;
 }
 
 * {
@@ -25,7 +31,7 @@
 }
 
 h1{
-    font-family: monserrat-regular;
+    font-family: montserrat-regular;
     font-size: 1.6rem;
     text-transform: uppercase;
 }
@@ -42,7 +48,7 @@ h3{
 }
 
 h4{
-    font-family: monserrat-regular;
+    font-family: montserrat-regular;
     font-size: 1rem;
     margin-left: 3rem;
     
@@ -60,7 +66,7 @@ footer{
 
 #footerMainContent{
     height: 8rem;
-    font-family: monserrat-medium;
+    font-family: montserrat-medium;
     font-size: 1.3rem;
     font-weight: bold;
     color: #5b5b5b;
