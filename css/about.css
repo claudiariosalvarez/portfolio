@@ -171,6 +171,7 @@
     .designsLayout{
         display: flex;
         justify-content: center;
+        margin-bottom: 2rem;
     }
 
     .designContent{
@@ -229,6 +230,7 @@
     .designsLayout{
         display: flex;
         justify-content: center;
+        margin-bottom: 2rem;
     }
 
     .designContent{
@@ -282,6 +284,7 @@
     .designsLayout{
         display: flex;
         justify-content: center;
+        margin-bottom: 2rem;
     }
 
     .designContent{
