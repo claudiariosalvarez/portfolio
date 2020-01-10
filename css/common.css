@@ -404,6 +404,10 @@ a{
         flex-direction: row;
         justify-content: space-evenly;
     }
+
+    #hamburgerMenuContent{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1440px){
@@ -414,6 +418,10 @@ a{
     #footerMainContent{
         width: 1024px;
     }
+
+    #hamburgerMenuContent{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1441px) {
@@ -423,6 +431,10 @@ a{
 
     #footerMainContent{
         width: 1440px;
+    }
+
+    #hamburgerMenuContent{
+        display: none;
     }
 }
 
