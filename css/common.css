@@ -79,6 +79,7 @@ footer{
 #footerClauNameText{
     min-width: 40%;
     text-transform: uppercase;
+    text-align: right;
 }
 
 #footerCopyright{
@@ -174,6 +175,10 @@ a{
     z-index: 1;
 }
 
+#footerLinksContent{
+    min-width: 50%;
+}
+
 
 /*FLEX*/
 
@@ -235,9 +240,34 @@ a{
 
 
 
-@media screen and (min-width: 320px) and (max-width: 375px){
+@media screen and (max-width: 375px){
     .maxBodyWidth{
         width: 320px;
+    }
+
+    #footerMainContent{
+        width: 320px;
+    }
+
+    #footerClauNameText{
+        text-align: left;
+        font-size: 0.75rem;
+    }
+
+    #footerLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #footerContactMeText{
+        font-size: 0.8rem;
+        width: 80%;
+        text-align: left;
+    }
+
+    .footerLinkImage{
+        width: 20%;
     }
 }
 
@@ -245,12 +275,67 @@ a{
     .maxBodyWidth{
         width: 375px;
     }
+
+    #footerMainContent{
+        width: 375px;
+    }
+
+    #footerClauNameText{
+        text-align: left;
+        font-size: 0.8rem;
+    }
+
+    #footerLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #footerContactMeText{
+        width: 80%;
+        text-align: left;
+        font-size: 0.8rem;
+    }
+
+    .footerLinkImage{
+        width: 20%;
+    }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px){
     .maxBodyWidth{
         width: 425px;
     }
+
+    #footerMainContent{
+        width: 425px;
+    }
+
+    #footerClauNameText{
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    #footerLinksContent{
+        width: 80%;
+        text-align: left;
+    }
+
+    #footerLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #footerContactMeText{
+        width: 65%;
+        text-align: left;
+    }
+
+    .footerLinkImage{
+        width: 20%;
+    }
+   
 }
 
 @media screen and (max-width: 512px) {
@@ -288,16 +373,34 @@ a{
     .maxBodyWidth{
         width: 768px;
     }
+
+    #footerMainContent{
+        width: 768px;
+    }
+
+    #footerLinks{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1440px){
     .maxBodyWidth{
         width: 1024px;
     }
+
+    #footerMainContent{
+        width: 1024px;
+    }
 }
 
 @media screen and (min-width: 1441px) {
     .maxBodyWidth{
+        width: 1440px;
+    }
+
+    #footerMainContent{
         width: 1440px;
     }
 }
