@@ -82,15 +82,6 @@
     padding-bottom: 8rem;
 }
 
-.negativeTrippleMarginTop{
-    margin-top: -6rem;
-}
-
-.contentPaddingBottom{
-    padding-bottom: 5rem;
-}
-
-
 .littleMarginBottom{
     margin-bottom: 3rem;
 }
@@ -113,6 +104,11 @@
 
 #aboutMeLayoutContent{
     width: 90%;
+}
+
+#contactMe{
+    margin-top: -6rem;
+    padding-bottom: 5rem;
 }
 
 #contactMeTitle{
@@ -180,6 +176,10 @@
     #desings{
         padding-top: 2rem;
     }
+
+    #contactMe{
+        padding-bottom: 2rem;
+    }
     
 }
 
@@ -230,6 +230,10 @@
     #desings{
         padding-top: 2rem;
     }
+
+    #contactMe{
+        padding-bottom: 2rem;
+    }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px){
@@ -274,6 +278,10 @@
 
     #desings{
         padding-top: 2rem;
+    }
+
+    #contactMe{
+        padding-bottom: 2rem;
     }
 }
 
