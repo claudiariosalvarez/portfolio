@@ -85,13 +85,9 @@
     margin-bottom: 3rem;
 }
 
-#profileImageLayout{
-    width: 40%;
-}
 
 #profileImage{
-    width: 80%;
-    margin-bottom: -2rem;
+    margin-right: 1rem;
 }
 
 #aboutMeLayout{
@@ -108,4 +104,103 @@
     background: #284B59;
     height: 500px;
     width: 90%;
+}
+
+@media screen and (max-width: 375px){
+    .maxBodyWidth{
+        width: 320px;
+    }
+
+    #aboutMeLayout{
+        width: 80%;
+    }
+
+    #profileImage {
+        width: 80%;
+        margin: 0;
+    }
+
+    .textTitle{
+        font-size: 1.1rem;
+    }
+
+    .paragraphText{
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px){
+    .maxBodyWidth{
+        width: 375px;
+    }
+
+    #aboutMeLayout{
+        width: 80%;
+    }
+
+    #profileImage {
+        width: 80%;
+        margin: 0;
+    }
+
+    .textTitle{
+        font-size: 1.1rem;
+    }
+
+    .paragraphText{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+    .maxBodyWidth{
+        width: 425px;
+    }
+
+    #aboutMeLayout{
+        width: 80%;
+    }
+
+    #profileImage {
+        width: 80%;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .maxBodyWidth{
+        width: 768px;
+    }
+    
+    #aboutMeLayout{
+        width: 80%;
+    }
+
+    #profileImage {
+        width: 80%;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+    .maxBodyWidth{
+        width: 1024px;
+    }
+
+    #profileImage {
+        width: 375px;
+        margin-bottom: -1.4rem;
+    }
+}
+
+@media screen and (min-width: 1441px){
+    .maxBodyWidth{
+        width: 1440px;
+    }
+
+    #profileImage {
+        width: 520px;
+        margin-bottom: -2rem;
+    }
 }

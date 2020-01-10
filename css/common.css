@@ -148,10 +148,6 @@ a{
     height: 100%;
 }
 
-.maxBodyWidth{
-    width: 1440px;
-}
-
 .maxWidth{
     width: 100%;
 }
@@ -233,6 +229,23 @@ a{
 
 
 
+@media screen and (min-width: 320px) and (max-width: 375px){
+    .maxBodyWidth{
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px){
+    .maxBodyWidth{
+        width: 375px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+    .maxBodyWidth{
+        width: 425px;
+    }
+}
 
 @media screen and (max-width: 512px) {
     #headerLayout{
@@ -264,3 +277,25 @@ a{
         height: 100%;
     }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .maxBodyWidth{
+        width: 768px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+    .maxBodyWidth{
+        width: 1024px;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .maxBodyWidth{
+        width: 1440px;
+    }
+}
+
+
+
+
