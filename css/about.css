@@ -125,12 +125,8 @@
     width: 50%;
 }
 
-/*REMOVE ME*/
-
-.blueBg{
-    background: #284B59;
-    height: 500px;
-    width: 90%;
+#profileImageContainer{
+    width: 100%;
 }
 
 @media screen and (max-width: 375px){
@@ -145,6 +141,10 @@
     #profileImage {
         max-width: 80%;
         margin: 0;
+    }
+
+    #profileImageContainer{
+        width: 100%;
     }
 
     .paragraphText{
@@ -219,6 +219,10 @@
         margin: 0;
     }
 
+    #profileImageContainer{
+        width: 100%;
+    }
+
     .paragraphText{
         font-size: 1.2rem;
     }
@@ -289,6 +293,10 @@
         margin: 0;
     }
 
+    #profileImageContainer{
+        width: 100%;
+    }
+
     #contactMeLayout{
         width: 100%;
     }
@@ -349,6 +357,10 @@
     #profileImage {
         max-width: 80%;
         margin: 0;
+    }
+
+    #profileImageContainer{
+        width: 100%;
     }
 
     #blueContent{
