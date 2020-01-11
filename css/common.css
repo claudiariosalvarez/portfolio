@@ -30,6 +30,10 @@
     box-sizing: border-box;
 }
 
+img{
+    height: auto;
+}
+
 h1{
     font-family: montserrat-regular;
     font-size: 1.6rem;
