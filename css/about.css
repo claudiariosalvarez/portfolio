@@ -100,6 +100,7 @@
 
 #profileImage{
     margin-right: 1rem;
+    height: auto;
 }
 
 #aboutMeLayout{
@@ -338,7 +339,7 @@
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1199px){
+@media screen and (min-width: 769px) and (max-width: 1024px){
     .maxBodyWidth{
         width: 768px;
     }
@@ -366,8 +367,7 @@
     }
 }
 
-
-@media screen and (min-width: 1200px) and (max-width: 1440px){
+@media screen and (min-width: 1025px) and (max-width: 1440px){
     .maxBodyWidth{
         width: 1024px;
     }
