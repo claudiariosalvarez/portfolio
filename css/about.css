@@ -145,7 +145,7 @@
     }
 
     #profileImage {
-        width: 80%;
+        max-width: 80%;
         margin: 0;
     }
 
@@ -217,7 +217,7 @@
     }
 
     #profileImage {
-        width: 80%;
+        max-width: 80%;
         margin: 0;
     }
 
@@ -287,7 +287,7 @@
     }
 
     #profileImage {
-        width: 80%;
+        max-width: 80%;
         margin: 0;
     }
 
@@ -349,7 +349,7 @@
     }
 
     #profileImage {
-        width: 80%;
+        max-width: 80%;
         margin: 0;
     }
 
