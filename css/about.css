@@ -360,6 +360,10 @@
     #contactMeLayout{
         width: 100%;
     }    
+
+    #aboutMeLayoutContent{
+        margin-bottom: 2rem;
+    }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1440px){
