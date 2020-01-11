@@ -125,10 +125,6 @@
     width: 50%;
 }
 
-#profileImageContainer{
-    width: 100%;
-}
-
 @media screen and (max-width: 375px){
     .maxBodyWidth{
         width: 320px;
