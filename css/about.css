@@ -143,7 +143,7 @@
 
     #profileImageContainer{
         width: 100%;
-        margin:0;
+        margin:auto;
     }
 
     .paragraphText{
@@ -219,7 +219,7 @@
 
     #profileImageContainer{
         width: 100%;
-        margin:0;
+        margin: auto;
     }
 
     .paragraphText{
@@ -293,7 +293,7 @@
 
     #profileImageContainer{
         width: 100%;
-        margin:0;
+        margin: auto;
     }
 
     #contactMeLayout{
@@ -359,7 +359,7 @@
 
     #profileImageContainer{
         width: 100%;
-        margin:0;
+        margin:auto;
     }
 
     #blueContent{
