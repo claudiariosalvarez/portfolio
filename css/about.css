@@ -3,8 +3,6 @@
     margin-bottom: 3rem;
 }
 
-
-
 .textTitle{
     font-family: montserrat-bold;
     font-size: 2rem;
@@ -145,7 +143,7 @@
     }
 
     #profileImage {
-        max-width: 80vw;
+        max-width: 80%;
         margin: 0;
     }
 
