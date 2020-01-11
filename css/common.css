@@ -305,6 +305,11 @@ a{
     .footerLinkImage{
         width: 20%;
     }
+
+    .responsiveImageContainer{
+        width: 100%;
+        margin:auto;
+    }
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px){
@@ -336,6 +341,11 @@ a{
 
     .footerLinkImage{
         width: 20%;
+    }
+
+    .responsiveImageContainer{
+        width: 100%;
+        margin:auto;
     }
 }
 
@@ -374,6 +384,11 @@ a{
     .footerLinkImage{
         width: 20%;
     }
+
+    .responsiveImageContainer{
+        width: 100%;
+        margin:auto;
+    }
    
 }
 
@@ -401,6 +416,11 @@ a{
         display:block;
         width: 5.5vw;
     }
+
+    .responsiveImageContainer{
+        width: 100%;
+        margin:auto;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
@@ -420,6 +440,11 @@ a{
 
     #hamburgerMenuContent{
         display: none;
+    }
+
+    .responsiveImageContainer{
+        width: 100%;
+        margin:auto;
     }
 }
 

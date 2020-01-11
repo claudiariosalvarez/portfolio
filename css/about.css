@@ -138,11 +138,6 @@
     #profileImage {
         max-width: 80%;
     }
-    
-    .responsiveImageContainer{
-        width: 100%;
-        margin:auto;
-    }
 
     .paragraphText{
         font-size: 1.2rem;
@@ -215,11 +210,6 @@
         max-width: 80%;
     }
 
-    .responsiveImageContainer{
-        width: 100%;
-        margin:auto;
-    }
-
     .paragraphText{
         font-size: 1.2rem;
     }
@@ -288,12 +278,7 @@
     #profileImage {
         max-width: 80%;
     }
-
-    .responsiveImageContainer{
-        width: 100%;
-        margin:auto;
-    }
-
+    
     #contactMeLayout{
         width: 100%;
     }
@@ -353,11 +338,6 @@
 
     #profileImage {
         max-width: 80%;
-    }
-
-    .responsiveImageContainer{
-        width: 100%;
-        margin:auto;
     }
 
     #blueContent{
