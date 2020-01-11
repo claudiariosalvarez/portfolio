@@ -125,6 +125,10 @@
     width: 50%;
 }
 
+#profileImageContainer{
+    margin-right: 1rem;
+}
+
 @media screen and (max-width: 375px){
     .maxBodyWidth{
         width: 320px;
@@ -136,11 +140,11 @@
 
     #profileImage {
         max-width: 80%;
-        margin: 0;
     }
 
     #profileImageContainer{
         width: 100%;
+        margin:0;
     }
 
     .paragraphText{
@@ -212,11 +216,11 @@
 
     #profileImage {
         max-width: 80%;
-        margin: 0;
     }
 
     #profileImageContainer{
         width: 100%;
+        margin:0;
     }
 
     .paragraphText{
@@ -286,11 +290,11 @@
 
     #profileImage {
         max-width: 80%;
-        margin: 0;
     }
 
     #profileImageContainer{
         width: 100%;
+        margin:0;
     }
 
     #contactMeLayout{
@@ -352,11 +356,11 @@
 
     #profileImage {
         max-width: 80%;
-        margin: 0;
     }
 
     #profileImageContainer{
         width: 100%;
+        margin:0;
     }
 
     #blueContent{

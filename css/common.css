@@ -205,6 +205,12 @@ a{
     justify-content: center;
 }
 
+.centerImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*FLEX*/
 
 .horizontalSpaceEvenlyLayout{
