@@ -12,6 +12,6 @@ function onHamburgerBtnClick(){
 
 function hideHamburgerContentIfOpen(){
     const currentWidth = document.body.clientWidth;
-    if(currentWidth > 768)
+    if(currentWidth > 512)
         document.getElementById("hamburgerMenuContent").style.display = "none";
 }
