@@ -37,9 +37,8 @@
 
 #jmc{
     width:40vw;
-    margin-right: 2rem;
-    
 }
+
 .info{
     display:flex;
     align-items: flex-end;
@@ -77,6 +76,11 @@
     #jmc{
         width: 65vw;
     }
+}
 
+@media screen and (min-width:1024px){
+    #jmc{
+        margin-right: 2rem;
+    }
 
- }
+}
