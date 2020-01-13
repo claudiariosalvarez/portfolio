@@ -13,35 +13,13 @@
     justify-content: center;
 }
 
-.centerContentCol{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.centerContentRow{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
 .textbody{
     width: 40%;
     text-align: left;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
 }
 
 #chanel{
     width:40vw;
-}
-
-.info{
-    display:flex;
-    align-items: flex-end;
-    flex-direction: column;
-    
 }
 
 .logos{
@@ -67,7 +45,6 @@
 @media screen and (min-width: 513px) and (max-width:1023px){
     .textbody{
         width: 80%;
-
     }
 
     #chanel{

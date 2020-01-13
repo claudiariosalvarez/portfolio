@@ -1,4 +1,4 @@
-.textCooltura{
+.textChanel{
     font-family: montserrat-medium;
     font-size: 2rem;
     text-transform: uppercase;
@@ -18,31 +18,29 @@
     text-align: left;
 }
 
-#cooltura{
-    width:50vw;
-    
+#chanel{
+    width:40vw;
+    margin-right: 2rem;
 }
 
 .logos{
     display:flex;
     flex-direction:row;
 }
+
 .logo2{
     margin-left:0.5rem;
 }
 
 
 @media screen and (max-width: 512px) {
-    
     .textbody{
         width: 80%;
     }
 
-    #cooltura{
+    #chanel{
         width: 80vw;
     }
-
-
  }
 
  @media screen and (min-width: 513px) and (max-width:1023px){
@@ -51,9 +49,7 @@
 
     }
 
-    #cooltura{
+    #chanel{
         width: 65vw;
     }
-
-
- }
+}
