@@ -1,9 +1,3 @@
-.textGlovo{
-    font-family: montserrat-medium;
-    font-size: 2rem;
-    text-transform: uppercase;
-}
-
 #textPhoto{
     flex-wrap: wrap;
     width: 90%;
