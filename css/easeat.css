@@ -13,38 +13,16 @@
     justify-content: center;
 }
 
-.centerContentCol{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-
-.centerContentRow{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-
 .textbody{
     width: 40%;
     text-align: left;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
 }
 
 #easeat{
     width:50vw;
     
 }
-.info{
-    display:flex;
-    align-items: flex-end;
-    flex-direction: column;
-    
-}
+
 .logos{
     display:flex;
     flex-direction:row;

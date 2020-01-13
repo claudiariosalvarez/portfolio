@@ -281,6 +281,14 @@ a{
     justify-content: space-evenly;
 }
 
+.verticalRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+
 /*WRAP*/
 
 .wrapContent{
