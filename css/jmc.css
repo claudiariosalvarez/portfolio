@@ -3,14 +3,9 @@
     text-align: left;
 }
 
-#jmc{
+#jmcImg{
     width:40vw;
 }
-
-.logo2{
-    margin-left:0.5rem;
-}
-
 
 @media screen and (max-width: 512px) {
     
@@ -18,26 +13,23 @@
         width: 80%;
     }
 
-    #jmc{
+    #jmcImg{
         width: 80vw;
     }
-
-
- }
+}
 
  @media screen and (min-width: 513px) and (max-width:1023px){
     .textbody{
         width: 80%;
-
     }
 
-    #jmc{
+    #jmcImg{
         width: 65vw;
     }
 }
 
 @media screen and (min-width:1024px){
-    #jmc{
+    #jmcImg{
         margin-right: 2rem;
     }
 

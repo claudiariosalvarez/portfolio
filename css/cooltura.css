@@ -3,15 +3,10 @@
     text-align: left;
 }
 
-#cooltura{
+#coolturaImg{
     width:50vw;
     
 }
-
-.logo2{
-    margin-left:0.5rem;
-}
-
 
 @media screen and (max-width: 512px) {
     
@@ -19,12 +14,10 @@
         width: 80%;
     }
 
-    #cooltura{
+    #coolturaImg{
         width: 80vw;
     }
-
-
- }
+}
 
  @media screen and (min-width: 513px) and (max-width:1023px){
     .textbody{
@@ -32,9 +25,7 @@
 
     }
 
-    #cooltura{
+    #coolturaImg{
         width: 65vw;
     }
-
-
- }
+}

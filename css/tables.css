@@ -3,13 +3,8 @@
     text-align: left;
 }
 
-#tables{
+#tablesImg{
     width:52vw;
-    
-}
-
-.logo2{
-    margin-left:0.5rem;
 }
 
 
@@ -19,12 +14,10 @@
         width: 80%;
     }
 
-    #tables{
+    #tablesImg{
         width: 80vw;
     }
-
-
- }
+}
 
  @media screen and (min-width: 513px) and (max-width:1023px){
     .textbody{
@@ -32,9 +25,7 @@
 
     }
 
-    #tables{
+    #tablesImg{
         width: 65vw;
     }
-
-
- }
+}

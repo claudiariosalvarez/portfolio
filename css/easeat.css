@@ -3,15 +3,10 @@
     text-align: left;
 }
 
-#easeat{
+#easeatImg{
     width:50vw;
     
 }
-
-.logo2{
-    margin-left:0.5rem;
-}
-
 
 @media screen and (max-width: 512px) {
     
@@ -19,11 +14,9 @@
         width: 80%;
     }
 
-    #easeat{
+    #easeatImg{
         width: 80vw;
     }
-
-
  }
 
  @media screen and (min-width: 513px) and (max-width:1023px){
@@ -32,9 +25,7 @@
 
     }
 
-    #easeat{
+    #easeatImg{
         width: 65vw;
     }
-
-
- }
+}

@@ -245,6 +245,10 @@ a{
     width: 90%;
 }
 
+.projectRightLogoMarginLeft{
+    margin-left:0.5rem;
+}
+
 /*FLEX HORIZONTAL*/
 
 .horizontalSpaceEvenlyLayout{

@@ -4,14 +4,9 @@
     text-align: left;
 }
 
-#popaire{
+#popaireImg{
     width:40vw;
 }
-
-.logo2{
-    margin-left:0.5rem;
-}
-
 
 @media screen and (max-width: 512px) {
     
@@ -19,11 +14,9 @@
         width: 80%;
     }
 
-    #popaire{
+    #popaireImg{
         width: 80vw;
     }
-
-
 }
 
 @media screen and (min-width: 513px) and (max-width:1023px){
@@ -32,13 +25,13 @@
 
     }
 
-    #popaire{
+    #popaireImg{
         width: 65vw;
     }
 }
 
 @media screen and (min-width:1024px){
-    #popaire{
+    #popaireImg{
         margin-right: 2rem;
     }
 }
