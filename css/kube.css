@@ -2,6 +2,12 @@
     width:52vw;
 }
 
+.textbody{
+    width: 40%;
+    text-align: left;
+}
+
+
 @media screen and (max-width: 512px) {
     
     .textbody{
@@ -16,7 +22,6 @@
  @media screen and (min-width: 513px) and (max-width:1023px){
     .textbody{
         width: 80%;
-
     }
 
     #kubeImg{
