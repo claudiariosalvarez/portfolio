@@ -233,6 +233,22 @@ a{
     display: none;
 }
 
+
+/*PROJECTS TEMPLATE*/
+.projectTitle{
+    font-family: montserrat-medium;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.projectTextAndPhotoWidth{
+    width: 90%;
+}
+
+.projectRightLogoMarginLeft{
+    margin-left:0.5rem;
+}
+
 /*FLEX HORIZONTAL*/
 
 .horizontalSpaceEvenlyLayout{

@@ -1,36 +1,12 @@
-.textCooltura{
-    font-family: montserrat-medium;
-    font-size: 2rem;
-    text-transform: uppercase;
-}
-
-#textPhoto{
-    flex-wrap: wrap;
-    width: 90%;
-    position: relative;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .textbody{
     width: 40%;
     text-align: left;
 }
 
-#cooltura{
+#coolturaImg{
     width:50vw;
     
 }
-
-.logos{
-    display:flex;
-    flex-direction:row;
-}
-.logo2{
-    margin-left:0.5rem;
-}
-
 
 @media screen and (max-width: 512px) {
     
@@ -38,12 +14,10 @@
         width: 80%;
     }
 
-    #cooltura{
+    #coolturaImg{
         width: 80vw;
     }
-
-
- }
+}
 
  @media screen and (min-width: 513px) and (max-width:1023px){
     .textbody{
@@ -51,9 +25,7 @@
 
     }
 
-    #cooltura{
+    #coolturaImg{
         width: 65vw;
     }
-
-
- }
+}

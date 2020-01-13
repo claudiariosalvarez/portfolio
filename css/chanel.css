@@ -1,43 +1,18 @@
-.textChanel{
-    font-family: montserrat-medium;
-    font-size: 2rem;
-    text-transform: uppercase;
-}
-
-#textPhoto{
-    flex-wrap: wrap;
-    width: 90%;
-    position: relative;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .textbody{
     width: 40%;
     text-align: left;
 }
 
-#chanel{
+#chanelImg{
     width:40vw;
 }
-
-.logos{
-    display:flex;
-    flex-direction:row;
-}
-
-.logo2{
-    margin-left:0.5rem;
-}
-
 
 @media screen and (max-width: 512px) {
     .textbody{
         width: 80%;
     }
 
-    #chanel{
+    #chanelImg{
         width: 80vw;
     }
  }
@@ -47,13 +22,13 @@
         width: 80%;
     }
 
-    #chanel{
+    #chanelImg{
         width: 65vw;
     }
 }
 
 @media screen and (min-width:1024px){
-    #chanel{
+    #chanelImg{
         margin-right: 2rem;
     }
 }

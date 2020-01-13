@@ -1,35 +1,12 @@
-.textPopaire{
-    font-family: montserrat-medium;
-    font-size: 2rem;
-    text-transform: uppercase;
-}
-
-#textPhoto{
-    flex-wrap: wrap;
-    width: 90%;
-    position: relative;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-}
 
 .textbody{
     width: 40%;
     text-align: left;
 }
 
-#popaire{
+#popaireImg{
     width:40vw;
 }
-
-.logos{
-    display:flex;
-    flex-direction:row;
-}
-.logo2{
-    margin-left:0.5rem;
-}
-
 
 @media screen and (max-width: 512px) {
     
@@ -37,11 +14,9 @@
         width: 80%;
     }
 
-    #popaire{
+    #popaireImg{
         width: 80vw;
     }
-
-
 }
 
 @media screen and (min-width: 513px) and (max-width:1023px){
@@ -50,13 +25,13 @@
 
     }
 
-    #popaire{
+    #popaireImg{
         width: 65vw;
     }
 }
 
 @media screen and (min-width:1024px){
-    #popaire{
+    #popaireImg{
         margin-right: 2rem;
     }
 }
