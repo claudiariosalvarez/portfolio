@@ -3,7 +3,7 @@ const languages = {
     SPANISH: "spanish"
 }
 
-const classLanguageButtonRelation = {
+const languageAndButtonIdsRelation = {
     english: "englishBtn",
     spanish: "spanishBtn"
 }
@@ -23,7 +23,7 @@ function initialize(){
 
 function onLanguageBtnClick(element) {
     const selectedBtnId = element.target.id
-    if (getCurrentLanguageButtonId() !== classLanguageButtonRelation[selectedBtnId]) {
+    if (getCurrentLanguageButtonId() !== languageAndButtonIdsRelation[selectedBtnId]) {
         hideCurrentText();
         currentLanguage = getButtonLanguage(selectedBtnId);
         updateLanguageButtonsStyle();
@@ -40,11 +40,11 @@ function hideCurrentText() {
 
 function updateLanguageButtonsStyle(){
     removeBoldStyleFromLanguageButtons();
-    setBoldStyleinLanguageButton(classLanguageButtonRelation[currentLanguage]);
+    setBoldStyleinLanguageButton(languageAndButtonIdsRelation[currentLanguage]);
 }
 
 function removeBoldStyleFromLanguageButtons(){
-    Object.values(classLanguageButtonRelation).forEach(buttonId =>
+    Object.values(languageAndButtonIdsRelation).forEach(buttonId =>
         document.getElementById(buttonId).classList.remove("boldText"));
 }
 
@@ -60,11 +60,11 @@ function changeTextLanguage() {
 }
 
 function getCurrentLanguageButtonId(){
-    return classLanguageButtonRelation[currentLanguage];
+    return languageAndButtonIdsRelation[currentLanguage];
 }
 
 function getButtonLanguage(selectedBtnId){
-    return Object.keys(classLanguageButtonRelation).filter(item => classLanguageButtonRelation[item] === selectedBtnId)[0];
+    return Object.keys(languageAndButtonIdsRelation).filter(item => languageAndButtonIdsRelation[item] === selectedBtnId)[0];
 }
 
 initialize();
