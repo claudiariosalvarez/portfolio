@@ -233,10 +233,16 @@ a{
     display: none;
 }
 
+
+/*PROJECTS TEMPLATE*/
 .projectTitle{
     font-family: montserrat-medium;
     font-size: 2rem;
     text-transform: uppercase;
+}
+
+.projectTextAndPhotoWidth{
+    width: 90%;
 }
 
 /*FLEX HORIZONTAL*/
