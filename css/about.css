@@ -4,17 +4,18 @@
 }
 
 .textTitle{
-    font-family: monserrat-medium;
+    font-family: montserrat-bold;
     font-size: 2rem;
+    color: #35242C;
 }
 
 .contactText{
     font-family: futura-medium;
     font-size: 1.5rem;
-    width: 60%;
+    width: 80%;
 }
 
-.oneThirdWidth{
+.designContent{
     width: 33%;
 }
 
@@ -31,8 +32,9 @@
 }
 
 .designFont{
-    font-family: monserrat-medium;
+    font-family: montserrat-medium;
     font-size: 1.4rem;
+    color: #35242C;
 }
 
 .linkImage{
@@ -52,7 +54,7 @@
 }
 
 #blueContentTitle{
-    font-family: monserrat-medium;
+    font-family: montserrat-medium;
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: lighter;
@@ -73,25 +75,29 @@
     padding-top: 2rem;
 }
 
-.contentTriplePaddingTop{
+#desings{
     padding-top: 6rem;
+    padding-bottom: 8rem;
 }
 
-.contentPaddingBottom{
-    padding-bottom: 5rem;
+.designImage{
+    margin-bottom: 2.5rem;
 }
 
-.littleMarginBottom{
-    margin-bottom: 3rem;
+.smallMarginRight{
+    margin-right: 1rem;
 }
 
-#profileImageLayout{
-    width: 40%;
+.blueContentImage{
+    width: 90%;
+}
+
+.contactMePairWidth{
+    width: 60%;
 }
 
 #profileImage{
-    width: 80%;
-    margin-bottom: -2rem;
+    height: auto;
 }
 
 #aboutMeLayout{
@@ -102,10 +108,282 @@
     width: 90%;
 }
 
-/*REMOVE ME*/
+#contactMe{
+    margin-top: -6rem;
+    padding-bottom: 5rem;
+}
 
-.blueBg{
-    background: #284B59;
-    height: 500px;
-    width: 90%;
+#contactMeTitle{
+    margin-left: 2rem;
+    letter-spacing: 6px;
+    font-family: montserrat-medium;
+    margin-bottom: 0;
+}
+
+#contactMeLayout{
+    width: 50%;
+}
+
+
+
+@media screen and (max-width: 375px){
+    .maxBodyWidth{
+        width: 320px;
+    }
+
+    #aboutMeLayout{
+        width: 80%;
+    }
+
+    #profileImage {
+        max-width: 80%;
+    }
+
+    .paragraphText{
+        font-size: 1.2rem;
+    }
+
+    #contactMeLayout{
+        width: 100%;
+    }
+
+    #blueContent{
+        height: 26rem;
+        width: 100%;
+    }
+
+    #blueContentTitle{
+        font-size: 1.5rem;
+    }
+
+
+    .contactText{
+        font-size: 1.1rem;
+    }
+
+    .contactMePairWidth{
+        width: 90%;
+    }
+
+    .designLayout{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4rem;
+    }
+
+    .designContent{
+        width: 80%;
+    }
+
+    #desings{
+        padding-top: 2rem;
+    }
+
+    #contactMe{
+        padding-bottom: 2rem;
+    }
+
+    #aboutMeLayoutContent{
+        margin-bottom: 2rem;
+    }
+
+    #claudiaRiosMainText{
+        font-size: 1.5rem;
+    }
+
+    .designImage{
+        margin-bottom: 1rem;
+    }
+    
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px){
+    .maxBodyWidth{
+        width: 375px;
+    }
+
+    #aboutMeLayout{
+        width: 80%;
+    }
+
+    #profileImage {
+        max-width: 80%;
+    }
+
+    .paragraphText{
+        font-size: 1.2rem;
+    }
+
+    #contactMeLayout{
+        width: 100%;
+    }
+
+    #blueContent{
+        height: 26rem;
+        width: 100%;
+    }
+
+    #blueContentTitle{
+        font-size: 1.5rem;
+    }
+
+    .contactText{
+        font-size: 1.4rem;
+    }
+
+    .contactMePairWidth{
+        width: 85%;
+    }
+
+    .designLayout{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4rem;
+    }
+
+    .designContent{
+        width: 80%;
+    }
+
+    #desings{
+        padding-top: 2rem;
+    }
+
+    #contactMe{
+        padding-bottom: 2rem;
+    }
+
+    #aboutMeLayoutContent{
+        margin-bottom: 2rem;
+    }
+
+    #claudiaRiosMainText{
+        font-size: 1.5rem;
+    }
+
+    .designImage{
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+    .maxBodyWidth{
+        width: 425px;
+    }
+
+    #aboutMeLayout{
+        width: 80%;
+    }
+
+    #profileImage {
+        max-width: 80%;
+    }
+    
+    #contactMeLayout{
+        width: 100%;
+    }
+
+    #blueContent{
+        height: 26rem;
+        width: 100%;
+    }
+
+    #blueContentTitle{
+        font-size: 1.8rem;
+    }
+
+    .contactText{
+        font-size: 1.5rem;
+    }
+
+    .contactMePairWidth{
+        width: 85%;
+    }
+
+    .designLayout{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4rem;
+    }
+
+    .designContent{
+        width: 80%;
+    }
+
+    #desings{
+        padding-top: 2rem;
+    }
+
+    #contactMe{
+        padding-bottom: 2rem;
+    }
+
+    #aboutMeLayoutContent{
+        margin-bottom: 2rem;
+    }
+
+    .designImage{
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .maxBodyWidth{
+        width: 768px;
+    }
+    
+    #aboutMeLayout{
+        width: 81%;
+    }
+
+    #profileImage {
+        max-width: 80%;
+    }
+
+    #blueContent{
+        height: 26rem;
+        width: 100%;
+    }
+
+    #contactMeLayout{
+        width: 100%;
+    }    
+
+    #aboutMeLayoutContent{
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+    .maxBodyWidth{
+        width: 1024px;
+    }
+
+    #profileImage {
+        width: 375px;
+        margin-bottom: -1.4rem;
+    }
+
+    #blueContent{
+        height: 29rem;
+    }
+
+    #profileImageContainer{
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 1441px){
+    .maxBodyWidth{
+        width: 1440px;
+    }
+
+    #profileImage {
+        width: 520px;
+        margin-bottom: -2rem;
+    }
+
+    #profileImageContainer{
+        margin-right: 1rem;
+    }
 }

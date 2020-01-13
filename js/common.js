@@ -1,5 +1,17 @@
-document.getElementById("hamburgerBtnLayout").addEventListener("click", onHamburgerBtnClick, false);
+document.getElementById("hamburgerBtn").addEventListener("click", onHamburgerBtnClick, false);
+
+window.addEventListener('resize', hideHamburgerContentIfOpen);
 
 function onHamburgerBtnClick(){
-    //document.getElementById("menu").style.display = "inherit";
+    const currentDisplay = document.getElementById("hamburgerMenuContent").style.display;
+    if(currentDisplay === "flex")
+        document.getElementById("hamburgerMenuContent").style.display = "none";
+    else
+        document.getElementById("hamburgerMenuContent").style.display = "flex";
+}
+
+function hideHamburgerContentIfOpen(){
+    const currentWidth = document.body.clientWidth;
+    if(currentWidth > 512)
+        document.getElementById("hamburgerMenuContent").style.display = "none";
 }

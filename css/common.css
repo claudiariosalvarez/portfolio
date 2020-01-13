@@ -1,31 +1,41 @@
 @font-face{
-    src:url("../fonts/Montserrat-Regular.ttf");
-    font-family: monserrat-regular;
-}
-@font-face{
-    src:url("../fonts/Montserrat-Medium.ttf");
-    font-family: monserrat-medium;
+    src:url("./../fonts/Montserrat-Regular.ttf");
+    font-family: montserrat-regular;
 }
 
 @font-face{
-    src:url("../fonts/futura\ medium\ bt.ttf");
+    src:url("./../fonts/Montserrat-Medium.ttf");
+    font-family: montserrat-medium;
+}
+
+@font-face{
+    src: url("./../fonts/Montserrat-Bold.ttf");
+    font-family: montserrat-bold;
+}
+
+@font-face{
+    src:url("./../fonts/futura\ medium\ bt.ttf");
     font-family: futura-medium;
 }
 @font-face{
-    src:url("../fonts/FuturaPTLight.otf");
+    src:url("./../fonts/FuturaPTLight.otf");
     font-family: futura-light;
 }
 
-.monserratMedium{
-    font-family: monserrat-medium;
+.montserratMedium{
+    font-family: montserrat-medium;
 }
 
 * {
     box-sizing: border-box;
 }
 
+img{
+    height: auto;
+}
+
 h1{
-    font-family: monserrat-regular;
+    font-family: montserrat-regular;
     font-size: 1.6rem;
     text-transform: uppercase;
 }
@@ -42,7 +52,7 @@ h3{
 }
 
 h4{
-    font-family: monserrat-regular;
+    font-family: montserrat-regular;
     font-size: 1rem;
     margin-left: 3rem;
     
@@ -60,7 +70,7 @@ footer{
 
 #footerMainContent{
     height: 8rem;
-    font-family: monserrat-medium;
+    font-family: montserrat-medium;
     font-size: 1.3rem;
     font-weight: bold;
     color: #5b5b5b;
@@ -73,6 +83,7 @@ footer{
 #footerClauNameText{
     min-width: 40%;
     text-transform: uppercase;
+    text-align: right;
 }
 
 #footerCopyright{
@@ -106,16 +117,36 @@ a{
     margin-right: 3rem;
     margin-top:2.5rem;
     margin-bottom: 1.5rem;
+    align-items: center;
 }
 
-#menu{
+#menu ul{
     display:flex;
     justify-content: space-between;
     align-self: center;
 }
 
-#hamburgerBtnLayout{
+#hamburgerBtn{
     display:none;
+}
+
+#hamburgerMenuContent{
+    display: none;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    margin-top: -1.5rem;
+}
+
+#hamburgerMenuContent a{
+    padding-left: 2.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-family: futura-medium;
+}
+
+#hamburgerMenuContent a:hover {
+    background-color: white;
 }
 
 .centerTextVertically{
@@ -148,10 +179,6 @@ a{
     height: 100%;
 }
 
-.maxBodyWidth{
-    width: 1440px;
-}
-
 .maxWidth{
     width: 100%;
 }
@@ -172,6 +199,21 @@ a{
     z-index: 1;
 }
 
+#footerLinksContent{
+    min-width: 50%;
+}
+
+#footerLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.centerImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*FLEX*/
 
@@ -233,6 +275,122 @@ a{
 
 
 
+@media screen and (max-width: 375px){
+    .maxBodyWidth{
+        width: 320px;
+    }
+
+    #footerMainContent{
+        width: 320px;
+    }
+
+    #footerClauNameText{
+        text-align: left;
+        font-size: 0.75rem;
+    }
+
+    #footerLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #footerContactMeText{
+        font-size: 0.8rem;
+        width: 80%;
+        text-align: left;
+        margin-bottom: 0.5rem;
+    }
+
+    .footerLinkImage{
+        width: 20%;
+    }
+
+    .responsiveImageContainer{
+        width: 100%;
+        margin:auto;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px){
+    .maxBodyWidth{
+        width: 375px;
+    }
+
+    #footerMainContent{
+        width: 375px;
+    }
+
+    #footerClauNameText{
+        text-align: left;
+        font-size: 0.8rem;
+    }
+
+    #footerLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #footerContactMeText{
+        width: 80%;
+        text-align: left;
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .footerLinkImage{
+        width: 20%;
+    }
+
+    .responsiveImageContainer{
+        width: 100%;
+        margin:auto;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+    .maxBodyWidth{
+        width: 425px;
+    }
+
+    #footerMainContent{
+        width: 425px;
+    }
+
+    #footerClauNameText{
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    #footerLinksContent{
+        width: 80%;
+        text-align: left;
+    }
+
+    #footerLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #footerContactMeText{
+        width: 65%;
+        text-align: left;
+        margin-bottom: 0.5rem;
+
+    }
+
+    .footerLinkImage{
+        width: 20%;
+    }
+
+    .responsiveImageContainer{
+        width: 100%;
+        margin:auto;
+    }
+   
+}
 
 @media screen and (max-width: 512px) {
     #headerLayout{
@@ -250,17 +408,74 @@ a{
         margin-left: 1.5rem;
     }
     
-    li{
+    #menu{
         display:none;
-    }
-
-    #hamburgerBtnLayout{
-        display:block;
-        width: 5.5vw;
     }
  
     #hamburgerBtn{
+        display:block;
+        width: 5.5vw;
+    }
+
+    .responsiveImageContainer{
         width: 100%;
-        height: 100%;
+        margin:auto;
     }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .maxBodyWidth{
+        width: 768px;
+    }
+
+    #footerMainContent{
+        width: 768px;
+    }
+
+    #footerLinks{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #hamburgerMenuContent{
+        display: none;
+    }
+
+    .responsiveImageContainer{
+        width: 100%;
+        margin:auto;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+    .maxBodyWidth{
+        width: 1024px;
+    }
+
+    #footerMainContent{
+        width: 1024px;
+    }
+
+    #hamburgerMenuContent{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .maxBodyWidth{
+        width: 1440px;
+    }
+
+    #footerMainContent{
+        width: 1440px;
+    }
+
+    #hamburgerMenuContent{
+        display: none;
+    }
+}
+
+
+
+

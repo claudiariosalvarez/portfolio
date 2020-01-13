@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximun-scale=1, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./../css/normalize.css">
     <link rel="stylesheet" href="./../css/common.css">
@@ -13,28 +13,35 @@
 </head>
 
 <body>
-    <header id="headerLayout">
-        <h1><a href="./../index.html">Claudia Ríos</a></h1>
-        <div class="centerTextVertically">
-            <ul id="menu">
-                <li><a href="./../index.html">Portfolio</a></li>
-                <li><a href="./../html/about.html">About</a></li>
-                <li>Contact</li>
-            </ul>
+    <header>
+        <div id="headerLayout">
+            <h1><a href="./../index.html">Claudia Ríos</a></h1>
             <div id="hamburgerBtnLayout">
-                <img id="hamburgerBtn" src="./../images/noun_menu_1166835.svg" alt="menu hamburguesa">
+                <img id="hamburgerBtn" src="./../images/noun_menu_1166835.svg" alt="Menu hamburguesa">
+                <div id="menu" class="centerTextVertically">
+                    <ul>
+                        <li><a href="./../index.html">Portfolio</a></li>
+                        <li><a href="./../html/about.html">About me</a></li>
+                    </ul>
+                </div>
             </div>
+        </div>
+        <div id="hamburgerMenuContent">
+            <a href="./../index.html">Portfolio</a>
+            <a href="./../html/about.html">About me</a>
+        </div>
     </header>
+
     <h4 id="subHeader">UX/UI Designer | Graphic Designer | Industrial Designer</h4>
     <div class="horizontalCenterLayout alignFlexItemsCenter">
         <div class="verticalSpaceEvenlyLayout">
-            <div class="maxBodyWidth horizontalSpaceEvenlyLayout contentPaddingTop frontContent">
-                <div class="horizontalCenterLayout" id="profileImageLayout">
-                    <img id="profileImage" src="./../images/profilePicture.png" alt="Claudia Rios Álvarez">
+            <div class="maxBodyWidth horizontalSpaceEvenlyLayout contentPaddingTop frontContent wrapContent">
+                <div id="profileImageContainer" class="responsiveImageContainer">
+                    <img id="profileImage" class="centerImage" src="./../images/profilePicture.png" alt="Claudia Rios Álvarez">
                 </div>
                 <div class="verticalCenterLayout" id="aboutMeLayout">
                     <div id="aboutMeLayoutContent">
-                        <h1 class="textTitle">Claudia Ríos Álvarez</h1>
+                        <h1 id="claudiaRiosMainText" class="textTitle">Claudia Ríos Álvarez</h1>
                         <div>
                             <span class="paragraphText">
                                 I´m a design enthusiast in all of its shapes. I
@@ -55,60 +62,73 @@
                     </div>
                 </div>
             </div>
-            <div class="grayBackground maxBodyWidth contentTriplePaddingTop contentPaddingBottom">
+            <div id="desings" class="grayBackground maxBodyWidth">
                 <div class="verticalCenterLayout">
-                    <div class="horizontalLeftLayout textCenter">
-                        <div class="verticalCenterLayout alignFlexItemsLeft oneThirdWidth">
-                            <img class="maxWidth littleMarginBottom" src="./../images/about1.png" />
+                    <div class="designLayout horizontalLeftLayout textCenter">
+                        <div class="verticalCenterLayout alignFlexItemsLeft designContent">
+                            <img class="maxWidth designImage" src="./../images/about1.png" alt="UX/UI Design" />
                             <span class="designFont alignFlexChildCenter">UX/UI DESIGN</span>
                         </div>
                     </div>
-                    <div class="horizontalCenterLayout textCenter">
-                        <div class="verticalCenterLayout alignFlexItemsCenter oneThirdWidth">
-                            <img class="maxWidth littleMarginBottom" src="./../images/about2.png" />
+                    <div class="designLayout horizontalCenterLayout textCenter">
+                        <div class="verticalCenterLayout alignFlexItemsCenter designContent">
+                            <img class="maxWidth designImage" src="./../images/about2.png" alt="Graphic Design" />
                             <span class="designFont alignFlexChildCenter">GRAPHIC DESIGN</span>
                         </div>
                     </div>
-                    <div class="horizontalRightLayout textCenter">
-                        <div class="verticalCenterLayout alignFlexItemsRight oneThirdWidth"> 
-                            <img class="maxWidth littleMarginBottom" src="./../images/about3.png" />
+                    <div class="designLayout horizontalRightLayout textCenter">
+                        <div class="verticalCenterLayout alignFlexItemsRight designContent">
+                            <img class="maxWidth designImage" src="./../images/about3.png" alt="Industrial Design" />
                             <span class="designFont alignFlexChildCenter">INDUSTRIAL DESIGN</span>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="horizontalCenterLayout maxBodyWidth contentPaddingBottom">
-                <div class="horizontalCenterLayout halfWidthContent">
-                    <div class="verticalCenterLayout">
-                        <h3>Contact me</h3>
-                        <img class="maxWidth" src="./../images/about4.png">
+            <div id="contactMe" class="horizontalCenterLayout maxBodyWidth frontContent wrapContent">
+                <div id="contactMeLayout">
+                    <h3 id="contactMeTitle" class="textTitle">Contact me</h3>
+                    <div class="responsiveImageContainer">
+                        <img class="maxWidth centerImage" src="./../images/about4.jpg" alt="Contact me">
                     </div>
                 </div>
                 <div id="blueContent" class="halfWidthContent">
                     <div class="verticalSpaceEvenlyLayout whiteText maxHeight">
                         <h1 id="blueContentTitle" class="textCenter">Claudia Rios Alvarez</h1>
                         <div class="horizontalCenterLayout halfHeight">
-                            <div class="verticalSpaceEvenlyLayout">
-                                <div class="horizontalSpaceEvenlyLayout wrapContent">
+                            <div class="verticalSpaceEvenlyLayout maxWidth maxHeight alignFlexItemsCenter">
+                                <a href="mailto:claudiarios97@gmail.com"
+                                    class="horizontalSpaceBetweenLayout wrapContent contactMePairWidth">
                                     <img class="alignFlexChildCenter gridFirstColumnFirstRow"
-                                        src="./../images/email.svg" />
+                                        src="./../images/email.svg" alt="Email" />
                                     <span
                                         class="contactText alignFlexChildCenter gridThidColumnFirstRow">claudiarios97@gmail.com</span>
-                                </div>
-                                <div class="horizontalSpaceEvenlyLayout wrapContent">
+                                </a>
+                                <a href="tel:+34622827625"
+                                    class="horizontalSpaceBetweenLayout wrapContent contactMePairWidth">
                                     <img class="alignFlexChildCenter gridFirstColumnFirstRow"
-                                        src="./../images/phone.svg" />
+                                        src="./../images/phone.svg" alt="Teléfono" />
                                     <span class="contactText alignFlexChildCenter gridThidColumnFirstRow">+34
                                         622827625</span>
-                                </div>
+                                </a>
                             </div>
                         </div>
                         <div id="blueContentContactLinks" class="horizontalCenterLayout alignFlexChildCenter">
-                            <div><img class="linkImage" src="./../images/behanceWhite.svg"> </div>
-                            <div><img class="linkImage" src="./../images/mediumWhite.svg"> </div>
-                            <div><img class="linkImage" src="./../images/linkedinWhite.svg"> </div>
-                            <div><img class="linkImage" src="./../images/instaWhite.svg"></div>
+                            <a href="https://www.behance.net/claudiariosalvarez">
+                                <img class="blueContentImage" src="./../images/behanceWhite.svg"
+                                    alt="Behance de Claudia">
+                            </a>
+                            <a href="https://medium.com/@claudiarios97">
+                                <img class="blueContentImage" src="./../images/mediumWhite.svg" alt="Medium de Claudia">
+                            </a>
+                            <a href="https://www.linkedin.com/in/claudia-r%C3%ADos-%C3%A1lvarez">
+                                <img class="blueContentImage" src="./../images/linkedinWhite.svg"
+                                    alt="Linkedin de Claudia">
+                            </a>
+                            <a href="https://www.instagram.com/claurios6/">
+                                <img class="blueContentImage" src="./../images/instaWhite.svg"
+                                    alt="Instagram de Claudia">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -116,23 +136,32 @@
         </div>
     </div>
     <footer class="horizontalCenterLayout">
-        <div class="verticalCenterLayout">
-            <div id="footerMainContent" class="maxBodyWidth horizontalSpaceEvenlyLayout">
+        <div id="footerMainContentLayout" class="verticalCenterLayout">
+            <div id="footerMainContent" class="horizontalSpaceEvenlyLayout">
                 <span id="footerClauNameText" class="alignFlexChildCenter maxHalfWidth textRight">Claudia Ríos
                     Álvarez</span>
-                <div class="horizontalCenterLayout halfWidth maxHalfWidth wrapContent">
+                <div id="footerLinks" class="halfWidth maxHalfWidth wrapContent">
                     <span id="footerContactMeText" class="alignFlexChildCenter textRight">Contact me</span>
-                    <div class="alignFlexChildCenter horizontalCenterLayout minHalfWidth">
-                        <div><img class="footerImage" src="./../images/behanceGrey.svg"> </div>
-                        <div><img class="footerImage" src="./../images/mediumGrey.svg"> </div>
-                        <div><img class="footerImage" src="./../images/linkedinGrey.svg"> </div>
-                        <div><img class="footerImage" src="./../images/instaGrey.svg"></div>
+                    <div id="footerLinksContent" class="alignFlexChildCenter horizontalCenterLayout">
+                        <a href="https://www.behance.net/claudiariosalvarez" class="footerLinkImage">
+                            <img class="footerImage" src="./../images/behanceGrey.svg" alt="Behance de Claudia">
+                        </a>
+                        <a href="https://medium.com/@claudiarios97" class="footerLinkImage">
+                            <img class="footerImage" src="./../images/mediumGrey.svg" alt="Medium de Claudia">
+                        </a>
+                        <a href="https://www.linkedin.com/in/claudia-r%C3%ADos-%C3%A1lvarez" class="footerLinkImage">
+                            <img class="footerImage" src="./../images/linkedinGrey.svg" alt="Linkedin de Claudia">
+                        </a>
+                        <a href="https://www.instagram.com/claurios6/" class="footerLinkImage">
+                            <img class="footerImage" src="./../images/instaGrey.svg" alt="Instagram de Claudia">
+                        </a>
                     </div>
                 </div>
             </div>
-            <div id="footerCopyright" class="textCenter monserratMedium">&copy;2019 by Claudia Ríos</div>
+            <div id="footerCopyright" class="textCenter montserratMedium">&copy;2019 by Claudia Ríos</div>
         </div>
     </footer>
+    <script type="text/javascript" src="./../js/common.js"></script>
 </body>
 
 </html>
