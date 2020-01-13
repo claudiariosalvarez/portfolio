@@ -39,24 +39,53 @@
             <div class="textbody">
                 <div>
                     <div>
-                        <h1 class="textGlovo">Glovo</h1>
+                        <div class="horizontalRight">
+                            <a id="englishBtn" class="languageButton">English</a>
+                            <a id="spanishBtn" class="languageButton">Español</a>
+                        </div>
                     </div>
                     <div>
-                        <h2>New feature: Split payment</h2>
+
+                        <h1 class="textGlovo">Glovo</h1>
                     </div>
-                    <div class="centerContentCol">
-                        <span class="paragraphText">We usually order food when we are with friends, family…and there´s
-                            always one of us that has to pay
-                            and
-                            ask everyone else for the money.</span>
-                        <span class="paragraphText">With this new feature you´ll be able to split the bill and share it
-                            with
-                            all your friends.</span>
+                    <div class="hidden english">
+                        <div>
+                            <h2>New feature: Split payment</h2>
+                        </div>
+                        <div class="centerContentCol">
+                            <span class="paragraphText">
+                                We usually order food when we are with friends, family…and
+                                there´s always one of us that has to pay
+                                and ask everyone else for the money.
+                            </span>
+                            <div class="smallSpace"></div>
+                            <span class="paragraphText">
+                                With this new feature you´ll be able to split the bill and share
+                                it with all your friends.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="hidden spanish">
+                        <div>
+                            <h2>Nueva funcionalidad: Pago dividido</h2>
+                        </div>
+                        <div class="centerContentCol">
+                            <span class="paragraphText">
+                                Normalmente, pedimos comida cuando estamos con amigos,
+                                familia... y siempre hay uno de nosotros que tiene que pagar y pedir el dinero a todos
+                                los demás.
+                            </span>
+                            <div class="smallSpace"></div>
+                            <span class="paragraphText">
+                                Con esta nueva función podrás dividir la cuenta y compartirla con todos tus amigos.
+                            </span>
+                        </div>
                     </div>
                 </div>
                 <div class="info">
                     <div>
-                        <h5>For more information visit:</h5>
+                        <h5 class="hidden english">For more information visit:</h5>
+                        <h5 class="hidden spanish">Para mas información visita:</h5>
                     </div>
                     <div class="logos">
                         <div class="logo1">
@@ -102,7 +131,8 @@
             <div id="footerCopyright" class="textCenter montserratMedium">&copy;2019 by Claudia Ríos</div>
         </div>
     </footer>
-    <script type="text/javascript" src="./../js/common.js"></script>
+    <script type="text/javascript" src="./../js/hamburgerBtn.js"></script>
+    <script type="text/javascript" src="./../js/language.js"></script>
 </body>
 
 </html>

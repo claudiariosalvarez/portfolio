@@ -162,6 +162,10 @@ a{
     margin-bottom: 1 rem;
 }
 
+.boldText{
+    font-weight: bold;
+}
+
 .smallSpace{
     height: 1rem;
 }
@@ -215,7 +219,21 @@ a{
     margin-right: auto;
 }
 
-/*FLEX*/
+.languageButton{
+    padding: 0.75rem;
+    cursor: pointer;
+    font-family: montserrat-regular;
+}
+
+.activeLanguage{
+    font-family: montserrat-medium;
+}
+
+.hidden{
+    display: none;
+}
+
+/*FLEX HORIZONTAL*/
 
 .horizontalSpaceEvenlyLayout{
     display: flex;
@@ -235,6 +253,16 @@ a{
     justify-content: center;
 }
 
+.horizontalRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+/*FLEX VERTICAL*/
+
+
 .verticalCenterLayout{
     display: flex;
     flex-direction: column;
@@ -253,13 +281,13 @@ a{
     justify-content: space-evenly;
 }
 
+/*WRAP*/
+
 .wrapContent{
     flex-wrap: wrap;
 }
 
-.alignFlexChildCenter{
-    align-self: center;
-}
+/*Flex Items*/
 
 .alignFlexItemsLeft{
     align-items: flex-start;
@@ -271,6 +299,12 @@ a{
 
 .alignFlexItemsRight{
     align-items: flex-end;
+}
+
+/**/
+
+.alignFlexChildCenter{
+    align-self: center;
 }
 
 
