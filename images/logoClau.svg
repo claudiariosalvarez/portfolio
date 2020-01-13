@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="116px" viewBox="0 0 89 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 119.421 115.969 119.421 115.969 0 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-675.000000, -280.000000)">
+            <g id="Group-4" transform="translate(662.000000, 280.000000)">
+                <path d="M37.159,42.7321 C37.159,31.5971 46.186,22.5701 57.321,22.5701 C62.95,22.5701 68.034,24.8811 71.692,28.6001 L71.692,28.5941 L87.505,12.4841 C79.774,4.7701 69.105,0.0001 57.321,0.0001 C33.72,0.0001 14.589,19.1321 14.589,42.7321 C14.589,66.3331 33.72,85.4651 57.321,85.4651 C80.922,85.4651 100.053,66.3331 100.053,42.7321 L77.484,42.7321 C77.484,53.8681 68.457,62.8951 57.321,62.8951 C46.186,62.8951 37.159,53.8681 37.159,42.7321 Z" id="Fill-1" fill="#E6C0A9"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-3"></g>
+                <text id="CLAUDIA" mask="url(#mask-2)" font-family="Futura-Medium, Futura" font-size="20" font-weight="400" letter-spacing="0.2" fill="#35242C">
+                    <tspan x="12" y="115">C</tspan>
+                    <tspan x="26.2136719" y="115" letter-spacing="1.046">L</tspan>
+                    <tspan x="36.9667031" y="115" letter-spacing="-0.38">A</tspan>
+                    <tspan x="50.8249844" y="115">UDIA</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
