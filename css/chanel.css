@@ -26,3 +26,9 @@
         width: 65vw;
     }
 }
+
+@media screen and (min-width:1023px){
+    #chanelImg{
+        margin-right: 2rem;
+    }
+}

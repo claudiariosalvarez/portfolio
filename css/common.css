@@ -371,6 +371,18 @@ a{
         width: 100%;
         margin:auto;
     }
+
+    .paragraphText{
+        font-size: 1.4rem;
+    }
+
+    .projectSubtitle {
+        font-size: 1.5rem;
+    }
+
+    .projectTitle{
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px){
@@ -407,6 +419,18 @@ a{
     .responsiveImageContainer{
         width: 100%;
         margin:auto;
+    }
+
+    .paragraphText{
+        font-size: 1.4rem;
+    }
+
+    .projectSubtitle {
+        font-size: 1.5rem;
+    }
+
+    .projectTitle{
+        font-size: 1.5rem;
     }
 }
 
@@ -450,6 +474,18 @@ a{
         width: 100%;
         margin:auto;
     }
+
+    .paragraphText{
+        font-size: 1.4rem;
+    }
+
+    .projectSubtitle {
+        font-size: 1.5rem;
+    }
+
+    .projectTitle{
+        font-size: 1.5rem;
+    }
    
 }
 
@@ -482,6 +518,18 @@ a{
         width: 100%;
         margin:auto;
     }
+
+    .paragraphText{
+        font-size: 1.4rem;
+    }
+
+    .projectSubtitle {
+        font-size: 1.5rem;
+    }
+
+    .projectTitle{
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
@@ -506,6 +554,18 @@ a{
     .responsiveImageContainer{
         width: 100%;
         margin:auto;
+    }
+
+    .paragraphText{
+        font-size: 1.4rem;
+    }
+
+    .projectSubtitle {
+        font-size: 1.5rem;
+    }
+
+    .projectTitle{
+        font-size: 1.5rem;
     }
 }
 
