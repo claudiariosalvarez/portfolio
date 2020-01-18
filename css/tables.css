@@ -4,7 +4,7 @@
 }
 
 #tablesImg{
-    width:52vw;
+    width:50vw;
 }
 
 
@@ -27,5 +27,11 @@
 
     #tablesImg{
         width: 65vw;
+    }
+}
+
+@media screen and (min-width:1025px){
+    #tablesImg{
+        margin-right: 2rem;
     }
 }
