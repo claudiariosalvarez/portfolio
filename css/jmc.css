@@ -27,10 +27,3 @@
         width: 65vw;
     }
 }
-
-@media screen and (min-width:1024px){
-    #jmcImg{
-        margin-right: 2rem;
-    }
-
-}
