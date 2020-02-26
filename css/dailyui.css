@@ -17,12 +17,21 @@
     margin-bottom: 1rem;
 }
 
-.dailyUiImg{
+.dailyUiImgWidth{
     width: 90%;
+}
+
+.dailyUiImg{
+    object-fit: contain;
+
 }
 
 #dailyUiBody{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+}
+
+#description{
+    width: 80%;
 }
