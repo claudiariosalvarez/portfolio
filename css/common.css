@@ -279,6 +279,13 @@ a{
     flex-wrap: nowrap;
 }
 
+.horizontalLeft{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
 /*FLEX VERTICAL*/
 
 
