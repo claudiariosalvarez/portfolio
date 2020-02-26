@@ -1,0 +1,30 @@
+.textbody{
+    width: 40%;
+    text-align: left;
+}
+
+#ecomakerImg{
+    width:50vw;
+}
+
+@media screen and (max-width: 512px) {
+    
+    .textbody{
+        width: 80%;
+    }
+
+    #ecomakerImg{
+        width: 80vw;
+    }
+ }
+
+ @media screen and (min-width: 513px) and (max-width:1023px){
+    .textbody{
+        width: 80%;
+
+    }
+
+    #ecomakerImg{
+        width: 65vw;
+    }
+ }
