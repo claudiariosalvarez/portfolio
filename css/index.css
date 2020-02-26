@@ -32,83 +32,12 @@
     margin-left:1.5rem;
 }
 
-.relative{
-    position: relative;
-}
-
 .image{
     width: 28rem;
     margin-bottom: 1.5rem;
 }
 
-/*OVERLAY*/
-.overlayBlackText{
-    text-align: center;
-    font-family: montserrat-regular;
-    white-space: nowrap; 
-    color:#35242C;
-    font-size: 1.5rem;
-}
 
-.overlayWhiteText{
-    text-align: center;
-    font-family: montserrat-regular;
-    white-space: nowrap; 
-    color: white;
-    font-size: 1.5rem;
-}
-
-.overlayBluePicture {
-    top: 0;
-    position: absolute;
-    bottom: 1.5rem;
-    left: 0;
-    overflow: hidden;
-    background-color:rgba(40,75,89,0.85);
-    width: 0;
-    height: auto;
-    transition: .3s ease-in-out;
-}
-
-.relative:hover .overlayBluePicture{
-    width: 100%;
-    cursor:pointer;
-}
-
-.overlayWhitePicture {
-    top: 0;
-    position: absolute;
-    bottom: 1.5rem;
-    left: 0;
-    overflow: hidden;
-    background-color: rgba(242,242,242,0.85);
-    width: 0;
-    height: auto;
-    transition: .3s ease-in-out;
-}
-
-.relative:hover .overlayWhitePicture{
-    width: 100%;
-    cursor:pointer;
-}
-
-.overlayBeigePicture {
-    top: 0;
-    position: absolute;
-    bottom: 1.5rem;
-    left: 0;
-    overflow: hidden;
-    background-color:rgba(227,192,171,0.85);
-    width: 0;
-    height: auto;
-    transition: .3s ease-in-out;
-}
-
-
-.relative:hover .overlayBeigePicture{
-    width: 100%;
-    cursor:pointer;
-}
 
 /*MEDIA*/
 

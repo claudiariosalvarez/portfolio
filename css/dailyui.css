@@ -17,9 +17,13 @@
     margin-bottom: 1rem;
 }
 
-.dailyUiImg{
+.dailyUiImgWidth{
     width: 90%;
+}
+
+.dailyUiImg{
     object-fit: contain;
+
 }
 
 #dailyUiBody{
