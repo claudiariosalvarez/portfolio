@@ -244,6 +244,11 @@ a{
     text-transform: uppercase;
 }
 
+.projectSubtitle {
+    font-size: 1.7rem;
+    letter-spacing: 3.5px;
+}
+
 .projectTextAndPhotoWidth{
     width: 90%;
 }
