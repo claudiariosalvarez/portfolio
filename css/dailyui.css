@@ -1,0 +1,28 @@
+#dailyUiImg{
+    width:40%;
+}
+
+.textbody{
+    width: 50%;
+}
+
+.pageWidth{
+    max-width: 1440px;
+}
+
+.dailyUiImgDiv{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.dailyUiImg{
+    width: 90%;
+}
+
+#dailyUiBody{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
