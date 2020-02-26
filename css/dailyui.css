@@ -3,7 +3,7 @@
 }
 
 .textbody{
-    width: 55%;
+    width: 50%;
 }
 
 .pageWidth{
@@ -26,4 +26,8 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+}
+
+#description{
+    width: 80%;
 }
