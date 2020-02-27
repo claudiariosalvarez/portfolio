@@ -44,11 +44,11 @@
 @media screen and (max-width: 767px) {
 
     .imagesContainerWidth{
-        width: 100%;
+        width: 95%;
     }
 
     #imageContainerWrapper{
-        flex-direction: column;
+        flex-wrap: wrap;
     }
  }
 
@@ -56,7 +56,7 @@
  @media screen and (min-width: 768px) and (max-width: 1023px) {
 
     .imagesContainerWidth{
-        width: 50%;
+        width: 45%;
     }
 
     .hideWhenTwoColumns {
