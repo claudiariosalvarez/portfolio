@@ -6,10 +6,6 @@
     width: 50%;
 }
 
-.pageWidth{
-    max-width: 1440px;
-}
-
 .dailyUiImgDiv{
     width: 33%;
     display: flex;
