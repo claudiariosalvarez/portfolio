@@ -35,3 +35,10 @@
 #description{
     width: 80%;
 }
+
+
+@media screen and (max-width: 676px) {
+    .dailyUiImgDiv{
+        width: 50%;
+    }
+}
