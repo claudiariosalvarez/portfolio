@@ -1,11 +1,15 @@
-#photoContainer{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
 .showWhenTwoColumns{
     display:none;
+}
+
+.imagesContainerWidth{
+    width: 33%;
+}
+
+#imageContainerWrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .leftAndRightColumn{
@@ -28,55 +32,31 @@
 
 }
 
-.marginLeft{
-    margin-left:1.5rem;
-}
-
 .image{
-    width: 28rem;
+    width: 95%;
     margin-bottom: 1.5rem;
 }
 
 
 
 /*MEDIA*/
+/*MOBILE*/
+@media screen and (max-width: 767px) {
 
-@media screen and (max-width: 512px) {
-
-    .image{
-        width:100vw;
-    }
-    
-    #photoContainer{
-        justify-content: center;
-    }
- 
-    .noMarginWhenOneColumn{
-        margin-left:0;
+    .imagesContainerWidth{
+        width: 100%;
     }
 
- }
- 
- 
- @media screen and (min-width: 580px) and (max-width: 919px) {
-    
-    .image{
-        width: 35rem;
-    }
- 
-    .noMarginWhenOneColumn{
-        margin-left:0;
+    #imageContainerWrapper{
+        flex-direction: column;
     }
  }
 
- @media screen and (min-width: 920px) and (max-width: 1391px) {
-    
-    .image{
-        width: 35rem;
-    }
+ /*TABLET*/
+ @media screen and (min-width: 768px) and (max-width: 1023px) {
 
-    .noMarginWhenTwoColumn{
-        margin-left:0;
+    .imagesContainerWidth{
+        width: 50%;
     }
 
     .hideWhenTwoColumns {
