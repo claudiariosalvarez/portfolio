@@ -247,6 +247,13 @@ a{
     color:#35242C;
     font-size: 1.5rem;
 }
+.overlayBlackText22{
+    text-align: center;
+    font-family: montserrat-regular;
+    white-space: nowrap; 
+    color:#35242C;
+    font-size: 1.3rem;
+}
 
 .overlayWhiteText{
     text-align: center;
