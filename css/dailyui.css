@@ -45,7 +45,7 @@
 }
 
 
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 767px) {
     .dailyUiImgDiv{
         width: 50%;
     }
