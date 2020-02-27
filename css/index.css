@@ -3,12 +3,12 @@
 }
 
 .imagesContainerWidth{
-    width: 33%;
+    width: 31%;
 }
 
 #imageContainerWrapper{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .image{
-    width: 95%;
+    width: 100%;
     margin-bottom: 1.5rem;
 }
 
