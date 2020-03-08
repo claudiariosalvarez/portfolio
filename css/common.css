@@ -269,7 +269,7 @@ a{
     overflow: hidden;
     background-color:rgba(40,75,89,0.85);
     width: 0;
-    height: auto;
+    height: 100%;
     transition: .3s ease-in-out;
 }
 
@@ -286,7 +286,7 @@ a{
     overflow: hidden;
     background-color: rgba(242,242,242,0.85);
     width: 0;
-    height: auto;
+    height: 100%;
     transition: .3s ease-in-out;
 }
 
@@ -303,7 +303,7 @@ a{
     overflow: hidden;
     background-color:rgba(227,192,171,0.85);
     width: 0;
-    height: auto;
+    height: 100%;
     transition: .3s ease-in-out;
 }
 
