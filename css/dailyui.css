@@ -34,6 +34,11 @@
 
 
 @media screen and (max-width: 767px) {
+
+    #description{
+        width: auto;
+    }
+
     .dailyUiImgDiv{
         width: 50%;
     }
@@ -48,7 +53,7 @@
     }
 
     #dailyUiImg{
-        margin-top: -10%;
+        margin-top: -8%;
         width: 70%;
     }
 
