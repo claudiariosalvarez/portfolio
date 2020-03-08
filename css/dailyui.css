@@ -32,14 +32,6 @@
     width: 80%;
 }
 
-#overlayBlackText21{
-    text-align: center;
-    font-family: montserrat-regular;
-    white-space: nowrap; 
-    color:#35242C;
-    font-size: 1.3rem;
-}
-
 
 @media screen and (max-width: 767px) {
     .dailyUiImgDiv{
@@ -59,4 +51,9 @@
         margin-top: -10%;
         width: 70%;
     }
+
+    .overlayBlackText{
+        font-size: 0.9rem;
+    }
+
 }

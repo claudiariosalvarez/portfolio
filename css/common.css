@@ -247,7 +247,6 @@ a{
 .overlayBlackText{
     text-align: center;
     font-family: montserrat-regular;
-    white-space: nowrap; 
     color:#35242C;
     font-size: 1.5rem;
 }
@@ -256,7 +255,6 @@ a{
 .overlayWhiteText{
     text-align: center;
     font-family: montserrat-regular;
-    white-space: nowrap; 
     color: white;
     font-size: 1.5rem;
 }
